@@ -53,6 +53,8 @@ GeneratedSoundBanks/
 # Keep plugin source, ignore compiled output
 Plugins/*/Binaries/
 Plugins/*/Intermediate/
+Plugins/WwiseSoundEngine/
+Plugins/Wwise/
 
 # ========================
 # MAC
