@@ -1,0 +1,62 @@
+# ========================
+# UNREAL ENGINE
+# ========================
+Binaries/
+Build/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# UE generated files
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.suo
+*.sln
+
+# Mac Xcode
+*.xcworkspace
+*.xcodeproj
+
+# Content (too heavy, not tracked)
+Content/
+
+# ========================
+# WWISE PROJECT
+# ========================
+# Per official Audiokinetic docs:
+
+# Cache — always ignore (intermediate conversion data)
+*/.cache/
+.cache/
+
+# Backup — created on Wwise version upgrades
+.backup/
+
+# User-specific settings
+*.wsettings
+.validationcache
+
+# SoundBank incremental data (local state only)
+IncrementalSoundBankData.xml
+
+# Generated SoundBanks (no LFS = don't commit heavy .bnk/.wem)
+GeneratedSoundBanks/
+
+# Wwise profiler sessions
+*.prof
+
+# ========================
+# PLUGINS
+# ========================
+# Keep plugin source, ignore compiled output
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# ========================
+# MAC
+# ========================
+.DS_Store
+*.dSYM
+*.dSYM.zip
