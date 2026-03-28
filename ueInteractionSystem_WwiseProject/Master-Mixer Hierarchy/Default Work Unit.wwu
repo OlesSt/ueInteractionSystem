@@ -10,7 +10,28 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="busAmbience" ID="{0E3BDE46-E9A8-4C69-990E-B93B1A2087E4}"/>
+						<Bus Name="busAmbience" ID="{0E3BDE46-E9A8-4C69-990E-B93B1A2087E4}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="busMusic" ID="{EEAE8ECA-B9F4-48E8-B41F-230276846FAD}"/>
+						<Bus Name="busSFX" ID="{2A8C9AE3-6156-4EB2-AC82-93715459A962}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="busPlayer" ID="{B27BD668-469C-4CF5-B716-947376D2D087}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<AuxBus Name="rverbROOM" ID="{7FE7A0BB-B9A7-4772-8D52-991E2D9161C7}"/>
+						<Bus Name="busUI" ID="{01BBDC2D-5644-43E0-9655-D5347D5FEEAE}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

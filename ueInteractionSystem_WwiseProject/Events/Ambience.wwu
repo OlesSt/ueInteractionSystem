@@ -3,12 +3,12 @@
 	<Events>
 		<WorkUnit Name="Ambience" ID="{F064ADDE-210F-47BF-86EA-3898FD51792D}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_sfxTest" ID="{D240E97D-8563-4F15-BEF6-EC93BE195842}">
+				<Event Name="Play_ambMain" ID="{459A41E7-C3FD-47EE-8F98-47935062BD2C}">
 					<ChildrenList>
-						<Action Name="" ID="{C5AF224E-2AD1-405D-9354-68B2D2DD56D3}" ShortID="518282317">
+						<Action Name="" ID="{A63C31AA-47E1-41D5-B16E-5300074779FA}" ShortID="197105135">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="sfxTest" ID="{96D68C6F-AF4E-45E9-861E-F702997D5E38}" WorkUnitID="{E60339CB-43BF-4889-B68A-340FB040DF42}"/>
+									<ObjectRef Name="ambMain" ID="{4AEAA55A-5640-4DAF-9090-212870825C26}" WorkUnitID="{E60339CB-43BF-4889-B68A-340FB040DF42}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

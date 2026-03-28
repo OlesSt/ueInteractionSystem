@@ -5,8 +5,79 @@
 			<ChildrenList>
 				<SoundBank Name="bnk_Ambience" ID="{61C31014-C3B3-4D53-8A3A-6B39AB806BF5}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_sfxTest" ID="{D240E97D-8563-4F15-BEF6-EC93BE195842}" WorkUnitID="{F064ADDE-210F-47BF-86EA-3898FD51792D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ambMain" ID="{459A41E7-C3FD-47EE-8F98-47935062BD2C}" WorkUnitID="{F064ADDE-210F-47BF-86EA-3898FD51792D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="bnk_Items" ID="{2E2E2269-46A2-4051-AE52-9FAA3A4558D7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_windowClose" ID="{3025203A-F9B6-400B-970F-39227F7A361B}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cylinSetUp" ID="{21932414-DD34-40DA-9F3D-3F9B5747E949}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_stoneDerbis" ID="{BE1E8842-DF00-432A-81B9-1C609F3734F2}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_windowOpen" ID="{7B432048-37F8-4377-B371-DFAEEA9E25BD}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cubeCollide" ID="{17FE82FD-DDFF-4410-AFF7-29704AF974DB}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cupDestroy" ID="{5646C2E1-B5C1-445F-84F3-8717EC5488A9}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pipeSetUp" ID="{7BE18EDA-01CA-45DF-832D-6E4F6C1CCF64}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cylinDebris" ID="{3C13B1E9-3458-45F6-8EC2-3AADD1F7C212}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cubeDebris" ID="{5D38AF22-46FA-4601-8CD5-5DA123986500}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_treeDerbis" ID="{3ED1E466-F7FA-460C-A482-5B1762CF6527}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_doorSingle_Open" ID="{98BB4C5A-4A0C-4631-BF1E-46AD550886A1}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_doorSlide_Close" ID="{7191466C-4C04-46B4-A256-43D04874E050}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cupCollide" ID="{FB8368F2-168E-46F2-B20E-AE96CDC92624}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cupPickUp" ID="{C0F3BDD2-1326-474C-A6ED-C7BCED3E4F4D}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_glassDestroy" ID="{95F56114-79D6-4762-861D-10C5FE4AB8DE}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pipePickUp" ID="{0AF844C7-00B2-478D-9087-1C78E2CB8F46}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_doorSingle_Close" ID="{5E1F67A6-0D41-47B0-909F-A5557001451F}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_doorSlide_Open" ID="{C2A00043-0189-47D0-9E14-81D6AF044C1C}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_glassCollide" ID="{730DD7A5-0DD7-47DA-943A-0D26D924C550}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_stoneDestroy" ID="{FDB52430-F9CE-4895-BE79-4125757EEA02}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_treeDestroy" ID="{A11A80E3-1E26-4956-AFCC-5E487EE038AB}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cylinPickUp" ID="{DDAB2187-8700-49C0-B55E-8F0485F536FA}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cubeSetUp" ID="{57363B4E-7694-4A8F-BB26-2EA3E0EE7D0B}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cylinCollide" ID="{4AB5FEEA-4657-4B7E-920B-04E131E1A7B4}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cubeDestroy" ID="{60C422AA-8416-4C66-84D3-8077EDA39058}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cubePickUp" ID="{0B654A86-C1EE-4C9A-B44C-4751CC6E39CC}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cupDebris" ID="{F48947A9-9C30-4D12-A025-58DE6304CB35}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cylinDestroy" ID="{CF442555-A1CA-4E98-9D0C-354EE5820595}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pipeCollide" ID="{7D3B02E8-45BE-4F62-9BE3-F9036CDC8751}" WorkUnitID="{DD2B1369-84D6-4B40-9123-A547281901A5}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="bnk_UI" ID="{7DBEB99C-CE13-4A25-AC27-4CCA5538552E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_buttonPush_On" ID="{E86B9260-971E-4105-B7EA-55BD6105C01F}" WorkUnitID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_buttonPush_Off" ID="{E3C94729-81FD-42CA-934C-2EB140372845}" WorkUnitID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_buttonStand_Off" ID="{741B4E3B-CF29-44DE-81FE-DF06E1C284F8}" WorkUnitID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_uiLight_Green" ID="{1CC517AF-4745-4663-AAC4-C03586B01B8F}" WorkUnitID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_panelActive_Off" ID="{93BEFBF4-D268-49B4-8089-9B6EE57C45CC}" WorkUnitID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_panelActive_On" ID="{E2858C3B-2D0F-4B83-B0DC-DCF3DAB75320}" WorkUnitID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_buttonStand_On" ID="{D7C9BE3A-B60F-4C4B-A2A9-CC0EDE9B2622}" WorkUnitID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_uiLight_Red" ID="{73D7CD64-76BF-4CB7-A94A-29103ABC85AB}" WorkUnitID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sfxTest" ID="{D240E97D-8563-4F15-BEF6-EC93BE195842}" WorkUnitID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="bnk_Player" ID="{5C4F9129-2699-4F87-8943-B85693A54D80}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_pistolShoot" ID="{661B69AA-D8D4-40D6-9D21-895CD0FF03C2}" WorkUnitID="{B2D7A4EA-EA5C-4831-AC78-BFD178129EB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_foot_Steps" ID="{4080A9A9-2222-4284-9688-A19BE471EE62}" WorkUnitID="{B2D7A4EA-EA5C-4831-AC78-BFD178129EB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_foot_Jump" ID="{6AE21DB3-4A09-4465-9999-39609E3EE3DA}" WorkUnitID="{B2D7A4EA-EA5C-4831-AC78-BFD178129EB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_foot_Land" ID="{66CC2C80-1521-477B-AAB5-29812CF658A3}" WorkUnitID="{B2D7A4EA-EA5C-4831-AC78-BFD178129EB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pistolCollide" ID="{3BE8E827-89E3-477D-AECA-32D9DD6356E2}" WorkUnitID="{B2D7A4EA-EA5C-4831-AC78-BFD178129EB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_bulletCollide" ID="{E559D32B-1071-4794-9FC9-CAF8EB97BBA4}" WorkUnitID="{B2D7A4EA-EA5C-4831-AC78-BFD178129EB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pistolPickUp" ID="{601F5ABE-297F-49EE-971F-5D9D36C69346}" WorkUnitID="{B2D7A4EA-EA5C-4831-AC78-BFD178129EB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pickagePickUp" ID="{CE5EC78A-8454-4A5E-B6C2-893F9B01FFE7}" WorkUnitID="{B2D7A4EA-EA5C-4831-AC78-BFD178129EB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pickageCollide" ID="{96D66626-327B-4BEC-A1F4-0A6CF0861165}" WorkUnitID="{B2D7A4EA-EA5C-4831-AC78-BFD178129EB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pickageHit" ID="{4E4CA2C2-6C56-4DA3-9262-78D792EFB8DB}" WorkUnitID="{B2D7A4EA-EA5C-4831-AC78-BFD178129EB0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="bnk_Music" ID="{6F91FCD7-D3D2-4BC7-8BFC-381EBAF6DB24}">
+					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
