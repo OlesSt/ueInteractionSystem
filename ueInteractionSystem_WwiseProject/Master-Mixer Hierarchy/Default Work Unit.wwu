@@ -14,6 +14,23 @@
 							<PropertyList>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="PlayerLocation" ID="{9DCE5030-F93E-453B-BF24-5466BC538857}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Inside" ID="{3B3808C1-2EDD-4617-8D65-7C742B1852EA}"/>
+										<CustomState Name="" ID="{7F560407-5A2B-4F38-942F-BC0CB485324E}" ShortID="992197465"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{E108E64E-FD51-465F-B8EB-9FE93A5A1295}"/>
+										<CustomState Name="" ID="{C11C5C57-20D7-4486-B01E-AA80ECFBCB15}" ShortID="593590304"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
 						<Bus Name="busMusic" ID="{EEAE8ECA-B9F4-48E8-B41F-230276846FAD}"/>
 						<Bus Name="busSFX" ID="{2A8C9AE3-6156-4EB2-AC82-93715459A962}">

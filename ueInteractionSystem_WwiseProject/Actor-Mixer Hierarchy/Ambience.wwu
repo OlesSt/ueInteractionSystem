@@ -7,6 +7,11 @@
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -16,6 +21,41 @@
 							<ObjectRef Name="busAmbience" ID="{0E3BDE46-E9A8-4C69-990E-B93B1A2087E4}" WorkUnitID="{86538E26-9D74-48E0-9D05-C61D3F547791}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience" ID="{54EF84B6-8C44-4046-A556-63D6F2A3A62E}">
+							<Language>SFX</Language>
+							<AudioFile>Ambience.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="783547409"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="PlayerLocation" ID="{9DCE5030-F93E-453B-BF24-5466BC538857}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Inside" ID="{3B3808C1-2EDD-4617-8D65-7C742B1852EA}"/>
+								<CustomState Name="" ID="{9E3D826D-3146-416D-903B-2CD7AF50AA28}" ShortID="12491869">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16" Value="40"/>
+										<Property Name="Lowpass" Type="int16" Value="30"/>
+										<Property Name="Volume" Type="Real64" Value="-6"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{E108E64E-FD51-465F-B8EB-9FE93A5A1295}"/>
+								<CustomState Name="" ID="{9168740E-5C7D-4A73-BA97-28C75DF7EBF4}" ShortID="814325850"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience" ID="{54EF84B6-8C44-4046-A556-63D6F2A3A62E}" Platform="Linked"/>
+					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
 		</WorkUnit>

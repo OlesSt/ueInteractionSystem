@@ -77,7 +77,11 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="bnk_Music" ID="{6F91FCD7-D3D2-4BC7-8BFC-381EBAF6DB24}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Music3d" ID="{32C92A8A-99E1-4017-8211-B0EC2D106F5D}" WorkUnitID="{BC6D868F-89FF-4723-AD8F-6D7125008390}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music" ID="{58A4E7D3-17F2-41D4-8335-BD9A1B9D67A9}" WorkUnitID="{BC6D868F-89FF-4723-AD8F-6D7125008390}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music2d" ID="{1723411D-78AA-4978-B19D-3BAE0ED98EA7}" WorkUnitID="{BC6D868F-89FF-4723-AD8F-6D7125008390}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
