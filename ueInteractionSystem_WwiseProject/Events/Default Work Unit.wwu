@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_sfxTest" ID="{D240E97D-8563-4F15-BEF6-EC93BE195842}">
-					<ChildrenList>
-						<Action Name="" ID="{C5AF224E-2AD1-405D-9354-68B2D2DD56D3}" ShortID="518282317">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfxTest" ID="{96D68C6F-AF4E-45E9-861E-F702997D5E38}" WorkUnitID="{D72115F1-8931-4D6D-BD9A-4C76C644199D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_buttonPush_Off" ID="{E3C94729-81FD-42CA-934C-2EB140372845}">
 					<ChildrenList>
 						<Action Name="" ID="{1E0EB9A9-FA04-49FB-B635-A2C533BA3F97}" ShortID="310927882">
