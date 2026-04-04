@@ -15,7 +15,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D747850A-6E01-4FA3-A79A-86BE87807A96}"/>
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="busAmbience" ID="{0E3BDE46-E9A8-4C69-990E-B93B1A2087E4}" WorkUnitID="{86538E26-9D74-48E0-9D05-C61D3F547791}"/>

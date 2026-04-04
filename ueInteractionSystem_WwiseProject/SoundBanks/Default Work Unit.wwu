@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{7D97FFE8-9AE3-4FE8-B2BD-5C3A66798E61}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="bnk_Ambience" ID="{61C31014-C3B3-4D53-8A3A-6B39AB806BF5}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>2000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_ambMain" ID="{459A41E7-C3FD-47EE-8F98-47935062BD2C}" WorkUnitID="{F064ADDE-210F-47BF-86EA-3898FD51792D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
@@ -46,6 +53,13 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="bnk_UI" ID="{7DBEB99C-CE13-4A25-AC27-4CCA5538552E}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>300000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_buttonPush_On" ID="{E86B9260-971E-4105-B7EA-55BD6105C01F}" WorkUnitID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_buttonPush_Off" ID="{E3C94729-81FD-42CA-934C-2EB140372845}" WorkUnitID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" Origin="Manual" Filter="7"/>
@@ -55,12 +69,18 @@
 						<ObjectRef Name="Play_panelActive_On" ID="{E2858C3B-2D0F-4B83-B0DC-DCF3DAB75320}" WorkUnitID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_buttonStand_On" ID="{D7C9BE3A-B60F-4C4B-A2A9-CC0EDE9B2622}" WorkUnitID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_uiLight_Red" ID="{73D7CD64-76BF-4CB7-A94A-29103ABC85AB}" WorkUnitID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_sfxTest" ID="{D240E97D-8563-4F15-BEF6-EC93BE195842}" WorkUnitID="{9430B495-F28E-476E-9044-D41C2CAF89D0}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="bnk_Player" ID="{5C4F9129-2699-4F87-8943-B85693A54D80}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>1000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_pistolShoot" ID="{661B69AA-D8D4-40D6-9D21-895CD0FF03C2}" WorkUnitID="{B2D7A4EA-EA5C-4831-AC78-BFD178129EB0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_foot_Steps" ID="{4080A9A9-2222-4284-9688-A19BE471EE62}" WorkUnitID="{B2D7A4EA-EA5C-4831-AC78-BFD178129EB0}" Origin="Manual" Filter="7"/>
@@ -77,6 +97,13 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="bnk_Music" ID="{6F91FCD7-D3D2-4BC7-8BFC-381EBAF6DB24}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>4000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Music3d" ID="{32C92A8A-99E1-4017-8211-B0EC2D106F5D}" WorkUnitID="{BC6D868F-89FF-4723-AD8F-6D7125008390}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Music" ID="{58A4E7D3-17F2-41D4-8335-BD9A1B9D67A9}" WorkUnitID="{BC6D868F-89FF-4723-AD8F-6D7125008390}" Origin="Manual" Filter="7"/>

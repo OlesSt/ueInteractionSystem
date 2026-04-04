@@ -6,7 +6,7 @@
 				<ActorMixer Name="DoorWindow" ID="{86CBB6D7-69E7-4BE6-8DB0-7F8BDCC12552}" ShortID="873901801">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D747850A-6E01-4FA3-A79A-86BE87807A96}"/>
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="busSFX" ID="{2A8C9AE3-6156-4EB2-AC82-93715459A962}" WorkUnitID="{86538E26-9D74-48E0-9D05-C61D3F547791}"/>
@@ -78,7 +78,7 @@
 				<ActorMixer Name="Cube" ID="{194F256A-9BDB-4FAF-A596-BE6B3D3C95CA}" ShortID="557706258">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D747850A-6E01-4FA3-A79A-86BE87807A96}"/>
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="busSFX" ID="{2A8C9AE3-6156-4EB2-AC82-93715459A962}" WorkUnitID="{86538E26-9D74-48E0-9D05-C61D3F547791}"/>
@@ -140,7 +140,7 @@
 				<ActorMixer Name="Cylinder" ID="{5A621593-BBE1-46C8-9BA0-6AF6EF84A49B}" ShortID="1051374407">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D747850A-6E01-4FA3-A79A-86BE87807A96}"/>
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="busSFX" ID="{2A8C9AE3-6156-4EB2-AC82-93715459A962}" WorkUnitID="{86538E26-9D74-48E0-9D05-C61D3F547791}"/>
@@ -202,7 +202,7 @@
 				<ActorMixer Name="Cup" ID="{A0FC667E-0A10-41AB-A272-F20E6BC5EF83}" ShortID="838107410">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D747850A-6E01-4FA3-A79A-86BE87807A96}"/>
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="busSFX" ID="{2A8C9AE3-6156-4EB2-AC82-93715459A962}" WorkUnitID="{86538E26-9D74-48E0-9D05-C61D3F547791}"/>
@@ -254,7 +254,7 @@
 				<ActorMixer Name="Pipe" ID="{5BC8AD41-D2DD-4B0D-9EBF-3F3FB843ED6E}" ShortID="581604591">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D747850A-6E01-4FA3-A79A-86BE87807A96}"/>
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="busSFX" ID="{2A8C9AE3-6156-4EB2-AC82-93715459A962}" WorkUnitID="{86538E26-9D74-48E0-9D05-C61D3F547791}"/>
@@ -296,7 +296,7 @@
 				<ActorMixer Name="Glass" ID="{3B1B97C0-2A82-4792-9260-1FA3F90AFD83}" ShortID="781123058">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D747850A-6E01-4FA3-A79A-86BE87807A96}"/>
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="busSFX" ID="{2A8C9AE3-6156-4EB2-AC82-93715459A962}" WorkUnitID="{86538E26-9D74-48E0-9D05-C61D3F547791}"/>
@@ -328,7 +328,7 @@
 				<ActorMixer Name="StoneTree" ID="{EA7EF78A-2236-47AB-B95F-F8C3005B3518}" ShortID="31115860">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D747850A-6E01-4FA3-A79A-86BE87807A96}"/>
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="busSFX" ID="{2A8C9AE3-6156-4EB2-AC82-93715459A962}" WorkUnitID="{86538E26-9D74-48E0-9D05-C61D3F547791}"/>
