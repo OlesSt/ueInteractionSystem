@@ -1,0 +1,42 @@
+# ========================
+# UNREAL ENGINE
+# ========================
+Binaries/
+Build/
+Intermediate/
+Saved/
+DerivedDataCache/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.suo
+*.sln
+*.xcworkspace
+*.xcodeproj
+Content/
+# ========================
+# WWISE PROJECT
+# ========================
+*/.cache/
+.cache/
+.backup/
+*.wsettings
+.validationcache
+IncrementalSoundBankData.xml
+GeneratedSoundBanks/
+*.prof
+# ========================
+# PLUGINS
+# ========================
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/WwiseSoundEngine/
+Plugins/Wwise/
+Plugins/WwiseNiagara/
+# ========================
+# MAC
+# ========================
+.DS_Store
+*.dSYM
+*.dSYM.zip
