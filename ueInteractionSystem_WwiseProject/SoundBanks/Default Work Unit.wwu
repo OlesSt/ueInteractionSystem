@@ -3,10 +3,33 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{ED1FA477-1F48-42D5-ABBC-091B8B9D08F5}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Ambience" ID="{87745C88-BBB2-442F-9252-10CD2C6DDB84}">
+				<SoundBank Name="bnk_Music" ID="{87745C88-BBB2-442F-9252-10CD2C6DDB84}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Test" ID="{E141BDDF-6138-4221-A99C-5AFD928514A9}" WorkUnitID="{A060C8FD-CA88-4BE3-939C-EE77AAC0D1AA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambience" ID="{33FF703B-6A7E-4456-B656-F7775DE3319B}" WorkUnitID="{781C7EDF-D1AF-48CE-A1C3-4F7BB36BBA4B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music2d" ID="{0EA5CB1E-0007-4CAA-8EF4-6F9A61D8467A}" WorkUnitID="{781C7EDF-D1AF-48CE-A1C3-4F7BB36BBA4B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music3d" ID="{08A4AFC1-8C20-4CD5-9026-9128A1DB0660}" WorkUnitID="{781C7EDF-D1AF-48CE-A1C3-4F7BB36BBA4B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="bnk_Player" ID="{545297D2-B6B2-48B5-8928-2A3DB41B1212}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_bulletCollide" ID="{DCB9E756-25B2-40E5-805D-E34F3BF36DCB}" WorkUnitID="{D49759F5-F3B5-4FFD-A4CB-D30A5428982B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_foot_Land" ID="{708A4218-8DCD-41EE-A3E1-9A8C82BC14FF}" WorkUnitID="{D49759F5-F3B5-4FFD-A4CB-D30A5428982B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pickageCollide" ID="{7E82526B-9809-4375-988E-2A17FEB06A08}" WorkUnitID="{D49759F5-F3B5-4FFD-A4CB-D30A5428982B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pickageHit" ID="{08C9551B-D929-4682-8FCF-76F2FF6BC3DE}" WorkUnitID="{D49759F5-F3B5-4FFD-A4CB-D30A5428982B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pistolCollide" ID="{FE132A76-DAF5-484E-89BF-15F082D942C3}" WorkUnitID="{D49759F5-F3B5-4FFD-A4CB-D30A5428982B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_foot_Steps" ID="{0662240C-8A43-49A6-99F1-6B6BCD0493FC}" WorkUnitID="{D49759F5-F3B5-4FFD-A4CB-D30A5428982B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pickagePickUp" ID="{9B259EF1-5DC1-4B8A-9CBE-B197683E1D09}" WorkUnitID="{D49759F5-F3B5-4FFD-A4CB-D30A5428982B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pistolShoot" ID="{C7987065-A041-4C23-A205-4989010FFDC5}" WorkUnitID="{D49759F5-F3B5-4FFD-A4CB-D30A5428982B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pistolPickUp" ID="{EE5D641C-991C-4C3A-8F55-BE8C3240EE23}" WorkUnitID="{D49759F5-F3B5-4FFD-A4CB-D30A5428982B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_foot_Jump" ID="{183EB8A3-426B-4F3F-8F57-BA5D65A21FF6}" WorkUnitID="{D49759F5-F3B5-4FFD-A4CB-D30A5428982B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="bnk_Items" ID="{6A7E410A-B3F6-4042-BBA0-4A4176F6FFB5}">
+					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

@@ -3,12 +3,89 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{A060C8FD-CA88-4BE3-939C-EE77AAC0D1AA}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Test" ID="{E141BDDF-6138-4221-A99C-5AFD928514A9}">
+				<Event Name="Play_panelActive_Off" ID="{EAA0BE78-BF19-48E8-9121-72816683328D}">
 					<ChildrenList>
-						<Action Name="" ID="{529FBB8E-58C2-4F9F-A6F6-2938AC562AA7}" ShortID="85731967">
+						<Action Name="" ID="{9720F115-F0A5-4E4C-B7D0-0EFA024AD1AB}" ShortID="119335157">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Test" ID="{5CCB7536-F936-4714-B878-67D1A0C38104}" WorkUnitID="{852C8274-0694-4903-B83B-D393EA7E3CA2}"/>
+									<ObjectRef Name="panelActive_Off" ID="{F62DAE49-6B17-47E7-8EC5-EC6443DD13DD}" WorkUnitID="{852C8274-0694-4903-B83B-D393EA7E3CA2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_panelActive_On" ID="{7F6BFB78-C7C9-4974-97E1-9E0A28CBB9EF}">
+					<ChildrenList>
+						<Action Name="" ID="{2D93CFB0-DD8C-4AF5-B8FF-7A8CFD0FF753}" ShortID="362153692">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="panelActive_On" ID="{F8E2BC6D-67DE-4581-B41E-16245720BABF}" WorkUnitID="{852C8274-0694-4903-B83B-D393EA7E3CA2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_uiLight_Green" ID="{710471ED-35C0-435B-BD44-CB7B05E68824}">
+					<ChildrenList>
+						<Action Name="" ID="{4A6FC976-E485-469B-947B-58F5335ABDE2}" ShortID="139068693">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="uiLight_Green" ID="{57A2D09F-DD55-41AB-9B6B-5EBEA65785DE}" WorkUnitID="{852C8274-0694-4903-B83B-D393EA7E3CA2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_uiLight_Red" ID="{4114A3C6-35B4-48E9-A166-635540BAFBDC}">
+					<ChildrenList>
+						<Action Name="" ID="{62482E0E-9274-4927-8273-8F8722CF8DAF}" ShortID="995230204">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="uiLight_Red" ID="{527B49B8-1F28-447C-80EC-996E45F88EC5}" WorkUnitID="{852C8274-0694-4903-B83B-D393EA7E3CA2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_buttonPush_Off" ID="{2B43B059-D52B-48F5-8839-363AF6596F8B}">
+					<ChildrenList>
+						<Action Name="" ID="{1376DD8B-D267-474A-B287-BB521C2BC3BF}" ShortID="879145231">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="buttonPush_Off" ID="{B78B1F3C-093A-4869-8D72-48BC50FDA266}" WorkUnitID="{852C8274-0694-4903-B83B-D393EA7E3CA2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_buttonPush_On" ID="{2494B50F-E9FF-4C74-BF65-95BB06DFD6B9}">
+					<ChildrenList>
+						<Action Name="" ID="{609BB647-C081-4C15-B5F8-F13B5918CFF7}" ShortID="213931570">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="buttonPush_On" ID="{CE3603EC-DCEB-4F57-A1F8-3CDBDB3170C1}" WorkUnitID="{852C8274-0694-4903-B83B-D393EA7E3CA2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_buttonStand_Off" ID="{8EF8CE2C-DE58-463E-AFC7-5BC18010AAA2}">
+					<ChildrenList>
+						<Action Name="" ID="{BB91E696-F56C-4CCA-B818-33F6BF2C2DAF}" ShortID="346096376">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="buttonStand_Off" ID="{51B2D000-1BF4-49E4-81DA-BD078CDC726D}" WorkUnitID="{852C8274-0694-4903-B83B-D393EA7E3CA2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_buttonStand_On" ID="{07E8FD8A-21AD-4738-96AF-FEF753DDD365}">
+					<ChildrenList>
+						<Action Name="" ID="{703DE057-873F-4FF3-90C7-ABD9AD0C91EB}" ShortID="603768497">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="buttonStand_On" ID="{06050D4B-8081-4F70-80E5-B514F877398D}" WorkUnitID="{852C8274-0694-4903-B83B-D393EA7E3CA2}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

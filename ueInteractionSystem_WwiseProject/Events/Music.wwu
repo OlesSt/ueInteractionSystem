@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{781C7EDF-D1AF-48CE-A1C3-4F7BB36BBA4B}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Music" ID="{781C7EDF-D1AF-48CE-A1C3-4F7BB36BBA4B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Music2d" ID="{0EA5CB1E-0007-4CAA-8EF4-6F9A61D8467A}">
+					<ChildrenList>
+						<Action Name="" ID="{77490EB8-40E0-462E-86F8-D1C192AD5DE7}" ShortID="617608011">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music2d" ID="{4A29B3FD-E5E5-47E5-8DDA-0ED86BE5ABF4}" WorkUnitID="{E0C45A21-4CA3-4543-BCF0-40F34AA7D58E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music3d" ID="{08A4AFC1-8C20-4CD5-9026-9128A1DB0660}">
+					<ChildrenList>
+						<Action Name="" ID="{1BE94D9C-15B3-4138-85A3-B64DD17BB075}" ShortID="942904393">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music3d" ID="{48ECCE5C-732C-4222-A41B-5D4D78A24C21}" WorkUnitID="{E0C45A21-4CA3-4543-BCF0-40F34AA7D58E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambience" ID="{33FF703B-6A7E-4456-B656-F7775DE3319B}">
+					<ChildrenList>
+						<Action Name="" ID="{DD1F06AC-076B-4EC1-B8AF-CBB8695AD2DB}" ShortID="139815870">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{76FB8F64-E2B8-4353-B014-3713A8246027}" WorkUnitID="{4813A913-1392-4960-82D8-BD9D5517FED3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

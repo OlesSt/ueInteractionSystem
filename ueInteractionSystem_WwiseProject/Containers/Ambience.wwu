@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4813A913-1392-4960-82D8-BD9D5517FED3}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Ambience" ID="{4813A913-1392-4960-82D8-BD9D5517FED3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Ambience" ID="{76FB8F64-E2B8-4353-B014-3713A8246027}" ShortID="902363803">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="busAmbience" ID="{80E4F2B1-EB24-4588-9725-FE37F2BF0605}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience" ID="{07067356-2EEB-4033-93CD-B7F5206801B9}">
+							<Language>SFX</Language>
+							<AudioFile>Ambience.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="962544968"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="PlayerLocation" ID="{50B8B8E0-D5DC-45DE-80AC-627E6A4DD6A6}"/>
+								<StateGroupInfo Name="" ID="{687C6FCD-0878-4B4A-ACC1-971A07C7B707}" ShortID="317395385"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Inside" ID="{F566B41D-6651-499D-A4E6-E0EF927DE348}"/>
+								<CustomState Name="" ID="{25EBA5B2-A188-4BDE-BA6C-9B86C69D2D82}" ShortID="535507829">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16" Value="40"/>
+										<Property Name="Lowpass" Type="int16" Value="30"/>
+										<Property Name="Volume" Type="Real64" Value="-12"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{5928F853-083E-4E02-82A3-00AD91778C4B}"/>
+								<CustomState Name="" ID="{9BAB8450-87F7-4560-956A-F0D9E8736747}" ShortID="850240481"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience" ID="{07067356-2EEB-4033-93CD-B7F5206801B9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

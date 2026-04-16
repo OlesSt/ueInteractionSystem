@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Items" ID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}" PersistMode="Standalone">
+			<ChildrenList>
+				<PropertyContainer Name="Cube" ID="{9F076D94-B084-4366-A90D-30ED4BA734A4}" ShortID="1020506348">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+						</Reference>
+					</ReferenceList>
+				</PropertyContainer>
+				<PropertyContainer Name="Cup" ID="{8F4D37EF-CAD4-427F-9521-5EAC7693973D}" ShortID="348761686">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+						</Reference>
+					</ReferenceList>
+				</PropertyContainer>
+				<PropertyContainer Name="Cylinder" ID="{A209004E-38A4-422B-8A56-4AE2BCEA4139}" ShortID="529812273">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+						</Reference>
+					</ReferenceList>
+				</PropertyContainer>
+				<PropertyContainer Name="DoorWindow" ID="{548D75F0-11D1-480B-9D1B-DD31590381B1}" ShortID="448455656">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+						</Reference>
+					</ReferenceList>
+				</PropertyContainer>
+				<PropertyContainer Name="Glass" ID="{DF359ED8-04D2-4613-A6D7-93A34FD145D9}" ShortID="263987348">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+						</Reference>
+					</ReferenceList>
+				</PropertyContainer>
+				<PropertyContainer Name="Pipe" ID="{2EBC948F-118F-4A5D-9F0E-F4950A9C952F}" ShortID="127403853">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+						</Reference>
+					</ReferenceList>
+				</PropertyContainer>
+				<PropertyContainer Name="StoneTree" ID="{FC2C7570-189C-48AB-9021-1D900BDC69D6}" ShortID="467790200">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+						</Reference>
+					</ReferenceList>
+				</PropertyContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D49759F5-F3B5-4FFD-A4CB-D30A5428982B}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Player" ID="{D49759F5-F3B5-4FFD-A4CB-D30A5428982B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_foot_Land" ID="{708A4218-8DCD-41EE-A3E1-9A8C82BC14FF}">
+					<ChildrenList>
+						<Action Name="" ID="{EF048444-CD6A-46F9-8D02-7B3116F9F7F6}" ShortID="586472840">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foot_Land" ID="{B2F7836D-8AB8-4487-BC27-4467B66A263C}" WorkUnitID="{36F81260-97DC-4E0F-A490-8A160E06FB82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_foot_Jump" ID="{183EB8A3-426B-4F3F-8F57-BA5D65A21FF6}">
+					<ChildrenList>
+						<Action Name="" ID="{549F8E8F-D2D8-4809-951E-2169426E80C6}" ShortID="794499155">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foot_Jump" ID="{415AEEA8-F5B0-4EE3-80D9-E709E6731CE7}" WorkUnitID="{36F81260-97DC-4E0F-A490-8A160E06FB82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_foot_Steps" ID="{0662240C-8A43-49A6-99F1-6B6BCD0493FC}">
+					<ChildrenList>
+						<Action Name="" ID="{05AFFA64-B1C3-4F0F-830E-75FCDBA2E54D}" ShortID="829497752">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foot_Steps" ID="{CA177B92-530A-40BB-9324-2577DD0A05C6}" WorkUnitID="{36F81260-97DC-4E0F-A490-8A160E06FB82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_pistolCollide" ID="{FE132A76-DAF5-484E-89BF-15F082D942C3}">
+					<ChildrenList>
+						<Action Name="" ID="{052B19E6-0452-49E9-96B5-C67D4E196425}" ShortID="561580199">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pistolCollide" ID="{8776FEA0-8D5F-4775-B08D-F2B1E212CF84}" WorkUnitID="{36F81260-97DC-4E0F-A490-8A160E06FB82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_pistolShoot" ID="{C7987065-A041-4C23-A205-4989010FFDC5}">
+					<ChildrenList>
+						<Action Name="" ID="{A01E2296-2C14-4C0C-A3C9-2077DB3A799E}" ShortID="104815569">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pistolShoot" ID="{117BC7FE-AC98-4B92-9032-A29550AD9DBD}" WorkUnitID="{36F81260-97DC-4E0F-A490-8A160E06FB82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_pistolPickUp" ID="{EE5D641C-991C-4C3A-8F55-BE8C3240EE23}">
+					<ChildrenList>
+						<Action Name="" ID="{02327C80-A61B-493D-BA0D-2415DB31EA35}" ShortID="808500618">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pistolPickUp" ID="{9F6A57F8-6D7A-463E-853C-AF8F9F18CC55}" WorkUnitID="{36F81260-97DC-4E0F-A490-8A160E06FB82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_bulletCollide" ID="{DCB9E756-25B2-40E5-805D-E34F3BF36DCB}">
+					<ChildrenList>
+						<Action Name="" ID="{4105570E-ABDF-4200-9C46-D0A35C743978}" ShortID="694964146">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bulletCollide" ID="{5C706EFF-87BA-4032-A53E-6D97372EDB2C}" WorkUnitID="{36F81260-97DC-4E0F-A490-8A160E06FB82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_pickageCollide" ID="{7E82526B-9809-4375-988E-2A17FEB06A08}">
+					<ChildrenList>
+						<Action Name="" ID="{74B0F368-2814-4CF3-BD29-AC1DEF56F726}" ShortID="773984215">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pickageCollide" ID="{FDF6BE02-39FC-4A0B-8E1C-22CE53178F09}" WorkUnitID="{36F81260-97DC-4E0F-A490-8A160E06FB82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_pickagePickUp" ID="{9B259EF1-5DC1-4B8A-9CBE-B197683E1D09}">
+					<ChildrenList>
+						<Action Name="" ID="{1521CAA2-C9A8-4BF0-B04D-5D099F9F7323}" ShortID="934793256">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pickagePickUp" ID="{82D04FBA-8E68-4728-B6DE-1C663367E546}" WorkUnitID="{36F81260-97DC-4E0F-A490-8A160E06FB82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_pickageHit" ID="{08C9551B-D929-4682-8FCF-76F2FF6BC3DE}">
+					<ChildrenList>
+						<Action Name="" ID="{D2B021BF-22D5-4623-A0D6-8B7B18154EC6}" ShortID="10124485">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pickageHit" ID="{0132A321-038A-485B-9AF9-158952E47B0B}" WorkUnitID="{36F81260-97DC-4E0F-A490-8A160E06FB82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
