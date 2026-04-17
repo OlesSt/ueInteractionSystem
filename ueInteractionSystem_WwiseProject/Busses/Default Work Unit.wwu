@@ -11,7 +11,15 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="busAmbience" ID="{80E4F2B1-EB24-4588-9725-FE37F2BF0605}"/>
-						<Bus Name="busMusic" ID="{CEE458FD-AABB-481F-8C58-84F5F3B66267}"/>
+						<Bus Name="busMusic" ID="{CEE458FD-AABB-481F-8C58-84F5F3B66267}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
 						<Bus Name="busPlayer" ID="{D12207BD-F243-41B9-A9C6-91C804DD7FB5}"/>
 						<Bus Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}"/>
 						<AuxBus Name="auxRverb" ID="{F48B6E8B-EB27-47BD-A025-114AD4BD46A8}"/>
