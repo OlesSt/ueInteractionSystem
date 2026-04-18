@@ -29,7 +29,14 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="bnk_Items" ID="{6A7E410A-B3F6-4042-BBA0-4A4176F6FFB5}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_doorSingle_Open" ID="{7C682EBF-9059-42F9-9645-3C81B279D529}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_doorSingle_Close" ID="{E896BC91-6CDD-43F0-ABD0-41FEB92F11B1}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_doorSlide_Open" ID="{2F0A1A58-DE48-44F8-B354-0E489D6D2DCA}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_doorSlide_Close" ID="{FA18B517-BDC0-458D-82E0-239A1FF10603}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_windowOpen" ID="{7DE2B559-F641-4753-96D2-C08F1AA07404}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_windowClose" ID="{47EB73D4-8D83-4DB8-965F-FD960D10643A}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

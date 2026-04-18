@@ -66,6 +66,140 @@
 							<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="doorSingle_Open" ID="{1FDBAD14-39D9-484E-9062-8E13C054197E}" ShortID="626476336">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="doorSingle_Open" ID="{32A9ACE1-A664-4B33-9554-6037B1187496}">
+									<Language>SFX</Language>
+									<AudioFile>doorSingle_Open.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="532511253"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="doorSingle_Open" ID="{32A9ACE1-A664-4B33-9554-6037B1187496}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="doorSingle_Close" ID="{3ECA0F02-6B85-4B2C-8615-A02042F5FF1B}" ShortID="361428579">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="doorSingle_Close" ID="{54709FFB-F36E-47B8-9478-03064775DFFC}">
+									<Language>SFX</Language>
+									<AudioFile>doorSingle_Close.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1032426325"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="doorSingle_Close" ID="{54709FFB-F36E-47B8-9478-03064775DFFC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="doorSlide_Close" ID="{EF857A86-EBCA-4A29-A99E-D342229A7B31}" ShortID="962562187">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="doorSlide_Close" ID="{271FAEA5-B35A-481A-BB9F-D6E53DE25890}">
+									<Language>SFX</Language>
+									<AudioFile>doorSlide_Close.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="271565236"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="doorSlide_Close" ID="{271FAEA5-B35A-481A-BB9F-D6E53DE25890}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="windowOpen" ID="{E8351689-E505-4DDF-A57A-26D10E822F09}" ShortID="624400807">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="windowOpen" ID="{79B2A456-A1F1-4ED7-B120-D275D05A2BCF}">
+									<Language>SFX</Language>
+									<AudioFile>windowOpen.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="503179076"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="windowOpen" ID="{79B2A456-A1F1-4ED7-B120-D275D05A2BCF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="doorSlide_Open" ID="{A2BE09D2-E5F4-4F9A-BFB2-4C2C2105B6C2}" ShortID="821719004">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="doorSlide_Open" ID="{92325AFA-D50F-4971-98CF-EBEDF8BD1940}">
+									<Language>SFX</Language>
+									<AudioFile>doorSlide_Open.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="272749664"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="doorSlide_Open" ID="{92325AFA-D50F-4971-98CF-EBEDF8BD1940}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="windowClose" ID="{E0C00045-0E1F-4812-86F9-872B295C84C7}" ShortID="278695682">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="windowClose" ID="{9B234DDD-4E49-4470-BE0F-AEBA07F92D10}">
+									<Language>SFX</Language>
+									<AudioFile>windowClose.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="316843692"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="windowClose" ID="{9B234DDD-4E49-4470-BE0F-AEBA07F92D10}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</PropertyContainer>
 				<PropertyContainer Name="Glass" ID="{DF359ED8-04D2-4613-A6D7-93A34FD145D9}" ShortID="263987348">
 					<PropertyList>

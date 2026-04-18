@@ -1,6 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{292E98DD-7321-43E9-82D7-59D8F3914200}" SchemaVersion="133">
 	<Events>
-		<WorkUnit Name="Items" ID="{292E98DD-7321-43E9-82D7-59D8F3914200}" PersistMode="Standalone"/>
+		<WorkUnit Name="Items" ID="{292E98DD-7321-43E9-82D7-59D8F3914200}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="DoorWindow" ID="{5BCB5655-77C8-4D62-9C14-DA75A61F68EF}" ShortID="822204732">
+					<ChildrenList>
+						<Event Name="Play_doorSingle_Close" ID="{E896BC91-6CDD-43F0-ABD0-41FEB92F11B1}">
+							<ChildrenList>
+								<Action Name="" ID="{240BE91E-48EC-4AC2-8CCD-4FBD99357A35}" ShortID="742154219">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="doorSingle_Close" ID="{3ECA0F02-6B85-4B2C-8615-A02042F5FF1B}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_doorSingle_Open" ID="{7C682EBF-9059-42F9-9645-3C81B279D529}">
+							<ChildrenList>
+								<Action Name="" ID="{82811211-45A3-4B0C-84B1-D8DB9F9F7DA8}" ShortID="746945061">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="doorSingle_Open" ID="{1FDBAD14-39D9-484E-9062-8E13C054197E}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_doorSlide_Close" ID="{FA18B517-BDC0-458D-82E0-239A1FF10603}">
+							<ChildrenList>
+								<Action Name="" ID="{C1187409-BF26-45F1-A4B7-F7B40AB7F6C2}" ShortID="554818836">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="doorSlide_Close" ID="{EF857A86-EBCA-4A29-A99E-D342229A7B31}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_doorSlide_Open" ID="{2F0A1A58-DE48-44F8-B354-0E489D6D2DCA}">
+							<ChildrenList>
+								<Action Name="" ID="{C048AD8F-CBBA-4495-964F-1A017331346F}" ShortID="4802624">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="doorSlide_Open" ID="{A2BE09D2-E5F4-4F9A-BFB2-4C2C2105B6C2}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_windowClose" ID="{47EB73D4-8D83-4DB8-965F-FD960D10643A}">
+							<ChildrenList>
+								<Action Name="" ID="{DCB574F0-7188-43EF-B171-78E47D8D1CD4}" ShortID="948251637">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="windowClose" ID="{E0C00045-0E1F-4812-86F9-872B295C84C7}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_windowOpen" ID="{7DE2B559-F641-4753-96D2-C08F1AA07404}">
+							<ChildrenList>
+								<Action Name="" ID="{3587F400-298F-4579-AD46-D592E2F0BD7C}" ShortID="928712251">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="windowOpen" ID="{E8351689-E505-4DDF-A57A-26D10E822F09}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
