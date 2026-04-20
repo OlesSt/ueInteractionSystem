@@ -73,6 +73,244 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Cude" ID="{27D86153-A85B-40E5-AC41-37E655B5EE2C}" ShortID="298613702">
+					<ChildrenList>
+						<Event Name="Play_cubeCollide" ID="{2ED6E14D-5CAA-4EA5-AFE8-12583EBD9CDC}">
+							<PropertyList>
+								<Property Name="CooldownTime" Type="Real32">
+									<ValueList>
+										<Value>0.2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{7F082424-6317-4886-8030-1E02C419F249}" ShortID="945942940">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cubeCollide" ID="{EEB0CCBA-2F61-431A-9BEB-CDEE18786E6B}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_cubeDestroy" ID="{DCFFF9D2-9971-43A8-A681-AEBC286B799D}">
+							<ChildrenList>
+								<Action Name="" ID="{7F2A379C-DAAF-4136-A9D1-5BE9FBD53AE8}" ShortID="251856875">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cubeDestroy" ID="{E290364A-3F6A-4842-AF89-CA95D3CD389E}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_cubePickUp" ID="{033B08FB-9F24-4F94-BE8B-D75D70A9CC8C}">
+							<ChildrenList>
+								<Action Name="" ID="{3D21E81A-89DA-471A-8A0C-2F126A102642}" ShortID="631646207">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cubePickUp" ID="{D478A648-917A-4E4E-A4CB-A29C765016E5}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_cubeSetUp" ID="{952B8240-ADC5-4937-9956-3837FF27D927}">
+							<ChildrenList>
+								<Action Name="" ID="{D70CA703-C236-401A-9210-6AFF8E2441F6}" ShortID="823567277">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cubeSetUp" ID="{15AFCC77-A001-470C-8B9F-F14F459D5C82}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_cudeDerbis" ID="{11A88529-FE98-4339-A9FB-0CA45D7B2795}">
+							<ChildrenList>
+								<Action Name="" ID="{C9F7895C-A832-452D-8B44-BD4E665A7E03}" ShortID="341623276">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cudeDerbis" ID="{CA2DC3B4-EB27-41B2-B08F-CC01A4188108}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Cup" ID="{6C713E45-68E0-45F4-A3FC-C08BD45DE1E2}" ShortID="1008649689">
+					<ChildrenList>
+						<Event Name="Play_cupCollide" ID="{D4364FEE-549E-4DC3-A76E-94377DC1E778}">
+							<PropertyList>
+								<Property Name="CooldownTime" Type="Real32">
+									<ValueList>
+										<Value>0.2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{FC82F4DB-A95F-4554-862E-EB5E12786A38}" ShortID="629502065">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cupCollide" ID="{666E923C-34DD-4F5B-BE49-7D6A142DF601}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_cupDerbis" ID="{7CCA543D-8721-4754-AFD3-EBC8D5AE8630}">
+							<PropertyList>
+								<Property Name="CooldownTime" Type="Real32">
+									<ValueList>
+										<Value>0.2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{ADF6878D-649E-471F-AEA4-F758D74B8088}" ShortID="435168922">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cupDerbis" ID="{63FF1273-B0EB-4D84-A691-F57AE717D9F7}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_cupDestroy" ID="{94E41CBD-C968-4EB0-A7A3-77D97CFBDBE0}">
+							<ChildrenList>
+								<Action Name="" ID="{9A7FF3D8-7F57-4879-8FC5-615B7A6C7D7D}" ShortID="743884091">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cupDestroy" ID="{12123546-64FB-4223-B47D-57B14FBD301A}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_cupPickUp" ID="{342A5BA8-83B1-48BE-9E22-B10701917577}">
+							<ChildrenList>
+								<Action Name="" ID="{6341C706-7A51-495E-8199-45F17419BB7A}" ShortID="734756289">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cupPickUp" ID="{C93C80BE-8198-47AA-BC87-3AE48BBD3ACC}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Glass" ID="{2BA4FE91-5BB8-4CFF-87B1-A5AB88E7576F}" ShortID="193073039">
+					<ChildrenList>
+						<Event Name="Play_glassCollide" ID="{542A8BF0-802F-4D0E-9E02-5E35B648A977}">
+							<PropertyList>
+								<Property Name="CooldownTime" Type="Real32">
+									<ValueList>
+										<Value>0.2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{9A4B878E-D6BD-478D-AA39-6775DF268754}" ShortID="123029635">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="glassCollide" ID="{AB5316C7-563A-41F2-B4AE-C4AF77577667}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_glassDestroy" ID="{9E8C7975-EEF0-4BC0-8FFF-E9D4DC3B3227}">
+							<ChildrenList>
+								<Action Name="" ID="{D4C29EBD-B28E-4805-8A64-A03392CC712F}" ShortID="340408983">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="glassDestroy" ID="{474ED2DE-58D4-48C8-9E31-33AD2B3BFE5A}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Pipe" ID="{437DC33A-2533-4C15-8844-BD581075D823}" ShortID="344619825">
+					<ChildrenList>
+						<Event Name="Play_pipeCollide" ID="{84068CA5-E884-4215-9F86-BD74CF6089B7}">
+							<PropertyList>
+								<Property Name="CooldownTime" Type="Real32">
+									<ValueList>
+										<Value>0.2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{671C8FE5-B769-4A0B-86B1-FB651DFE58D5}" ShortID="629608809">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pipeCollide" ID="{F34C5E97-7757-4080-A01D-DC74D21D870C}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_pipePickUp" ID="{7D563295-7B05-458A-86D0-7FB53E7FAF86}">
+							<ChildrenList>
+								<Action Name="" ID="{99285163-4E18-41AE-A40B-A0807AA9666E}" ShortID="737374954">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pipePickUp" ID="{30EDA109-C742-43BF-9601-055215A403DC}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_pipeSetUp" ID="{9D3A8F55-3F19-43F0-9746-A2E6BEF9DCCD}">
+							<ChildrenList>
+								<Action Name="" ID="{8209C8DB-9BCA-42A9-9955-8FA82F2798D0}" ShortID="866124473">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pipeSetUp" ID="{A56F4088-17D7-4A68-A577-8C60BD46D760}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Stone" ID="{BD811168-DF33-4AE9-934F-D81327519D3E}" ShortID="292296808">
+					<ChildrenList>
+						<Event Name="Play_stoneDerbis" ID="{AD499AFF-8EEC-46E6-BCBA-9911DACCF883}">
+							<PropertyList>
+								<Property Name="CooldownTime" Type="Real32">
+									<ValueList>
+										<Value>0.2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{A113D067-B6C3-48B7-8A97-4324E4B307AB}" ShortID="869799950">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="stoneDerbis" ID="{3E6B8CA8-B62D-4510-8AD8-03D4C50122BA}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_stoneDestroy" ID="{938F1CBA-E7ED-472C-ACDE-3C8E01DD1B25}">
+							<ChildrenList>
+								<Action Name="" ID="{526734E5-65AF-49C4-B0D9-F0D9562A20A8}" ShortID="61774437">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="stoneDestroy" ID="{9789EC72-2108-4A41-B32F-39D00D24C001}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

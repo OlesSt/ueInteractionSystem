@@ -30,12 +30,28 @@
 				</SoundBank>
 				<SoundBank Name="bnk_Items" ID="{6A7E410A-B3F6-4042-BBA0-4A4176F6FFB5}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_pipeCollide" ID="{84068CA5-E884-4215-9F86-BD74CF6089B7}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_doorSingle_Open" ID="{7C682EBF-9059-42F9-9645-3C81B279D529}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cudeDerbis" ID="{11A88529-FE98-4339-A9FB-0CA45D7B2795}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cubeDestroy" ID="{DCFFF9D2-9971-43A8-A681-AEBC286B799D}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pipeSetUp" ID="{9D3A8F55-3F19-43F0-9746-A2E6BEF9DCCD}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_doorSingle_Close" ID="{E896BC91-6CDD-43F0-ABD0-41FEB92F11B1}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_doorSlide_Open" ID="{2F0A1A58-DE48-44F8-B354-0E489D6D2DCA}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pipePickUp" ID="{7D563295-7B05-458A-86D0-7FB53E7FAF86}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_doorSlide_Close" ID="{FA18B517-BDC0-458D-82E0-239A1FF10603}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_stoneDerbis" ID="{AD499AFF-8EEC-46E6-BCBA-9911DACCF883}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_stoneDestroy" ID="{938F1CBA-E7ED-472C-ACDE-3C8E01DD1B25}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_windowOpen" ID="{7DE2B559-F641-4753-96D2-C08F1AA07404}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cupDerbis" ID="{7CCA543D-8721-4754-AFD3-EBC8D5AE8630}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cupPickUp" ID="{342A5BA8-83B1-48BE-9E22-B10701917577}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cubeSetUp" ID="{952B8240-ADC5-4937-9956-3837FF27D927}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_glassDestroy" ID="{9E8C7975-EEF0-4BC0-8FFF-E9D4DC3B3227}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_glassCollide" ID="{542A8BF0-802F-4D0E-9E02-5E35B648A977}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_windowClose" ID="{47EB73D4-8D83-4DB8-965F-FD960D10643A}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cupCollide" ID="{D4364FEE-549E-4DC3-A76E-94377DC1E778}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cubeCollide" ID="{2ED6E14D-5CAA-4EA5-AFE8-12583EBD9CDC}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cupDestroy" ID="{94E41CBD-C968-4EB0-A7A3-77D97CFBDBE0}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cubePickUp" ID="{033B08FB-9F24-4F94-BE8B-D75D70A9CC8C}" WorkUnitID="{292E98DD-7321-43E9-82D7-59D8F3914200}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -18,6 +18,546 @@
 							<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="cubeDestroy" ID="{E290364A-3F6A-4842-AF89-CA95D3CD389E}" ShortID="446160842">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cubeDestroy" ID="{C7CCF8A1-E151-4BCF-966B-33F21405CE88}">
+									<Language>SFX</Language>
+									<AudioFile>cubeDestroy.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="727930034"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="cubeDestroy" ID="{C7CCF8A1-E151-4BCF-966B-33F21405CE88}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cubePickUp" ID="{D478A648-917A-4E4E-A4CB-A29C765016E5}" ShortID="29549215">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cubePickUp" ID="{27F7CB66-8D36-4852-ACD8-6470E251393A}">
+									<Language>SFX</Language>
+									<AudioFile>cubePickUp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="316948165"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="cubePickUp" ID="{27F7CB66-8D36-4852-ACD8-6470E251393A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cubeSetUp" ID="{15AFCC77-A001-470C-8B9F-F14F459D5C82}" ShortID="35654865">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cubeSetUp" ID="{7535A402-B679-4D5F-B3C1-D29D5AB4CEF0}">
+									<Language>SFX</Language>
+									<AudioFile>cubeSetUp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="994168049"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="cubeSetUp" ID="{7535A402-B679-4D5F-B3C1-D29D5AB4CEF0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="cubeCollide" ID="{EEB0CCBA-2F61-431A-9BEB-CDEE18786E6B}" ShortID="135555190">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="cubeCollide_001" ID="{E895BB66-7022-45C4-A264-C7C594D6E5E1}" ShortID="41538271">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeCollide_001" ID="{960BD7E8-A89C-4050-8306-C43C69E50509}">
+											<Language>SFX</Language>
+											<AudioFile>cubeCollide_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="67895261"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeCollide_001" ID="{960BD7E8-A89C-4050-8306-C43C69E50509}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cubeCollide_002" ID="{36CD315B-12BD-48AC-B07A-5327068DC122}" ShortID="48488183">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeCollide_002" ID="{7521B686-A1D9-41F0-9AE7-4B828977AECA}">
+											<Language>SFX</Language>
+											<AudioFile>cubeCollide_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="298741694"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeCollide_002" ID="{7521B686-A1D9-41F0-9AE7-4B828977AECA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cubeCollide_003" ID="{D4801266-DA77-4B64-83C5-B6BFA47270B5}" ShortID="563735346">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeCollide_003" ID="{16F3D062-2450-4753-870A-6AA321A0E088}">
+											<Language>SFX</Language>
+											<AudioFile>cubeCollide_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1026870692"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeCollide_003" ID="{16F3D062-2450-4753-870A-6AA321A0E088}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cubeCollide_004" ID="{606B2076-B098-4A2D-9499-83A01025CDCB}" ShortID="953258705">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeCollide_004" ID="{C195656B-4DFB-4349-83CC-4546A8EAFAAD}">
+											<Language>SFX</Language>
+											<AudioFile>cubeCollide_004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="366627586"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeCollide_004" ID="{C195656B-4DFB-4349-83CC-4546A8EAFAAD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cubeCollide_005" ID="{33D847ED-C344-444B-BFFB-D600326AD057}" ShortID="436848982">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeCollide_005" ID="{D22DF7F4-2F8E-45D3-9599-6C80AEDFF5CA}">
+											<Language>SFX</Language>
+											<AudioFile>cubeCollide_005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1015012030"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeCollide_005" ID="{D22DF7F4-2F8E-45D3-9599-6C80AEDFF5CA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cubeCollide_006" ID="{535B9253-EF40-45EF-8C40-1E5852E27FB6}" ShortID="789958843">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeCollide_006" ID="{6D92E06C-7C46-4AD4-871C-A496B6D76A27}">
+											<Language>SFX</Language>
+											<AudioFile>cubeCollide_006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="656095472"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeCollide_006" ID="{6D92E06C-7C46-4AD4-871C-A496B6D76A27}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cubeCollide_007" ID="{86D3A9D8-93A9-4B46-AD30-0276E138F7F7}" ShortID="664476473">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeCollide_007" ID="{9F6CFF3A-2A4A-4830-9BDA-927AA17EACC0}">
+											<Language>SFX</Language>
+											<AudioFile>cubeCollide_007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="34927904"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeCollide_007" ID="{9F6CFF3A-2A4A-4830-9BDA-927AA17EACC0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cubeCollide_008" ID="{87C94B8F-627A-4834-AC9D-C3352E11417A}" ShortID="204206996">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeCollide_008" ID="{17BDFEA7-CD67-42AF-BDA5-B8D915017900}">
+											<Language>SFX</Language>
+											<AudioFile>cubeCollide_008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="317164587"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeCollide_008" ID="{17BDFEA7-CD67-42AF-BDA5-B8D915017900}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="cudeDerbis" ID="{CA2DC3B4-EB27-41B2-B08F-CC01A4188108}" ShortID="249380007">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="cubeDebris_001" ID="{C687DE88-C30C-49AF-A21D-142BA45AD170}" ShortID="342297506">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeDebris_001" ID="{CDCFE9D0-1EC9-4A28-9991-531AB84F935D}">
+											<Language>SFX</Language>
+											<AudioFile>cubeDebris_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="514067322"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeDebris_001" ID="{CDCFE9D0-1EC9-4A28-9991-531AB84F935D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cubeDebris_002" ID="{DD1F1B30-EBF3-4735-A506-7107891920AC}" ShortID="825055198">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeDebris_002" ID="{7A2D5701-86E5-4744-9E0D-C083FD915E23}">
+											<Language>SFX</Language>
+											<AudioFile>cubeDebris_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="250922771"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeDebris_002" ID="{7A2D5701-86E5-4744-9E0D-C083FD915E23}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cubeDebris_003" ID="{C08C16A4-7C02-4405-8DFD-F7C441C4C70F}" ShortID="383954040">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeDebris_003" ID="{919D0B3B-3DAA-40F6-940B-D18ED05636B7}">
+											<Language>SFX</Language>
+											<AudioFile>cubeDebris_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="793708343"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeDebris_003" ID="{919D0B3B-3DAA-40F6-940B-D18ED05636B7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cubeDebris_004" ID="{86A63FE4-93CB-489A-BF3C-FFC47C4D1253}" ShortID="550529874">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeDebris_004" ID="{F6EF64E3-4508-4C06-8E68-29EB8DC1F70F}">
+											<Language>SFX</Language>
+											<AudioFile>cubeDebris_004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="139435582"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeDebris_004" ID="{F6EF64E3-4508-4C06-8E68-29EB8DC1F70F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cubeDebris_005" ID="{47755CD6-1BD4-46D3-B89D-AA84DB3BCABA}" ShortID="247140765">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeDebris_005" ID="{5B428CE8-248E-4E27-83F0-DE51095ACBA1}">
+											<Language>SFX</Language>
+											<AudioFile>cubeDebris_005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="812213279"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeDebris_005" ID="{5B428CE8-248E-4E27-83F0-DE51095ACBA1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cubeDebris_006" ID="{B9C92B9F-36D4-44BD-A9CE-A5394E361CE0}" ShortID="505363744">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeDebris_006" ID="{153290E5-2776-42E4-BAA4-EFC1F2A7A60E}">
+											<Language>SFX</Language>
+											<AudioFile>cubeDebris_006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="732485294"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeDebris_006" ID="{153290E5-2776-42E4-BAA4-EFC1F2A7A60E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cubeDebris_007" ID="{A0778A71-A8AB-44B5-859F-4D216992F4CB}" ShortID="84110912">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeDebris_007" ID="{335132A4-DA19-4D61-9C6C-568A86C1405F}">
+											<Language>SFX</Language>
+											<AudioFile>cubeDebris_007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="582199773"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeDebris_007" ID="{335132A4-DA19-4D61-9C6C-568A86C1405F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cubeDebris_008" ID="{8CECDDB7-78F5-47A1-9B14-F836037889F1}" ShortID="503950098">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cubeDebris_008" ID="{B4189673-B12D-47F9-8F34-E8BACB187F4D}">
+											<Language>SFX</Language>
+											<AudioFile>cubeDebris_008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="701578265"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cubeDebris_008" ID="{B4189673-B12D-47F9-8F34-E8BACB187F4D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
 				</PropertyContainer>
 				<PropertyContainer Name="Cup" ID="{8F4D37EF-CAD4-427F-9521-5EAC7693973D}" ShortID="348761686">
 					<PropertyList>
@@ -34,22 +574,523 @@
 							<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
 						</Reference>
 					</ReferenceList>
-				</PropertyContainer>
-				<PropertyContainer Name="Cylinder" ID="{A209004E-38A4-422B-8A56-4AE2BCEA4139}" ShortID="529812273">
-					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
-						</Reference>
-					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="cupPickUp" ID="{C93C80BE-8198-47AA-BC87-3AE48BBD3ACC}" ShortID="304211507">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cupPickUp" ID="{87ED1E32-1826-413D-B96C-4D5EEF94E986}">
+									<Language>SFX</Language>
+									<AudioFile>cupPickUp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="865631893"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="cupPickUp" ID="{87ED1E32-1826-413D-B96C-4D5EEF94E986}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="cupCollide" ID="{666E923C-34DD-4F5B-BE49-7D6A142DF601}" ShortID="580751075">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="cupCollide_001" ID="{E9C6B01B-EBC1-46D6-87CA-62A38BD2FD6D}" ShortID="19915652">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupCollide_001" ID="{85573BF6-CD70-4058-A1E3-38E0663C8DAA}">
+											<Language>SFX</Language>
+											<AudioFile>cupCollide_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="267916311"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupCollide_001" ID="{85573BF6-CD70-4058-A1E3-38E0663C8DAA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cupCollide_002" ID="{7B4D4239-888E-496E-8A22-C0FF69587F8C}" ShortID="327085548">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupCollide_002" ID="{A1989685-44CC-452F-B27B-6B3116D95BB2}">
+											<Language>SFX</Language>
+											<AudioFile>cupCollide_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="194773229"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupCollide_002" ID="{A1989685-44CC-452F-B27B-6B3116D95BB2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cupCollide_003" ID="{A892804F-F4C8-4434-ADDA-59C0FFAD2DBC}" ShortID="238433248">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupCollide_003" ID="{DF4C8A3A-6D9B-49C0-9265-7E3484C5AF61}">
+											<Language>SFX</Language>
+											<AudioFile>cupCollide_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="652297662"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupCollide_003" ID="{DF4C8A3A-6D9B-49C0-9265-7E3484C5AF61}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cupCollide_004" ID="{06240EEE-12BD-4B2C-A41A-12058C04B034}" ShortID="628604696">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupCollide_004" ID="{12ADC730-4AB9-4F70-8E33-039E8AEA4604}">
+											<Language>SFX</Language>
+											<AudioFile>cupCollide_004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="684586071"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupCollide_004" ID="{12ADC730-4AB9-4F70-8E33-039E8AEA4604}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cupCollide_005" ID="{6DE258EB-F6E8-487E-8469-63DAC10AB9EE}" ShortID="360473668">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupCollide_005" ID="{74A5912B-6D5D-410E-A1D9-9F33F7074F30}">
+											<Language>SFX</Language>
+											<AudioFile>cupCollide_005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="838922403"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupCollide_005" ID="{74A5912B-6D5D-410E-A1D9-9F33F7074F30}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cupCollide_006" ID="{9190B2E7-3E66-4409-8F0B-0676470D8128}" ShortID="720678903">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupCollide_006" ID="{3EE54A07-0380-434D-8D57-2F555C111EAD}">
+											<Language>SFX</Language>
+											<AudioFile>cupCollide_006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="897268222"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupCollide_006" ID="{3EE54A07-0380-434D-8D57-2F555C111EAD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cupCollide_007" ID="{89025601-7C28-4BF3-9469-5DB879498391}" ShortID="512385714">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupCollide_007" ID="{0F343D67-A797-41A2-BD57-5AFE544EAB6F}">
+											<Language>SFX</Language>
+											<AudioFile>cupCollide_007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="888637334"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupCollide_007" ID="{0F343D67-A797-41A2-BD57-5AFE544EAB6F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cupCollide_008" ID="{3A351B9A-A539-4319-ADDC-BF795A6CF314}" ShortID="118256037">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupCollide_008" ID="{1AED3CAA-8489-44FD-B72F-9B926B833F32}">
+											<Language>SFX</Language>
+											<AudioFile>cupCollide_008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="528494389"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupCollide_008" ID="{1AED3CAA-8489-44FD-B72F-9B926B833F32}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="cupDerbis" ID="{63FF1273-B0EB-4D84-A691-F57AE717D9F7}" ShortID="337376368">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="cupDebris_001" ID="{D9DA8099-DFFB-4F76-8F7E-8E3C12B3AA3D}" ShortID="45440229">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupDebris_001" ID="{B0425EDC-8C34-46DA-886E-4DFA78F503C7}">
+											<Language>SFX</Language>
+											<AudioFile>cupDebris_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="802631717"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupDebris_001" ID="{B0425EDC-8C34-46DA-886E-4DFA78F503C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cupDebris_002" ID="{9BF783A7-D6BB-4F94-82F9-049626534784}" ShortID="261930247">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupDebris_002" ID="{3639D244-7C75-4F55-AD3B-5F66ACD8386F}">
+											<Language>SFX</Language>
+											<AudioFile>cupDebris_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="233010061"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupDebris_002" ID="{3639D244-7C75-4F55-AD3B-5F66ACD8386F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cupDebris_003" ID="{EE53A4DF-FC52-4EC7-8649-1640534B5936}" ShortID="812444631">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupDebris_003" ID="{07D88DE8-F700-4AE8-B586-115ED42F992F}">
+											<Language>SFX</Language>
+											<AudioFile>cupDebris_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1065017657"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupDebris_003" ID="{07D88DE8-F700-4AE8-B586-115ED42F992F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cupDebris_004" ID="{68A224DE-6DF7-4DBD-BDC8-29BA9ED12212}" ShortID="332004892">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupDebris_004" ID="{7DAA4BBD-9835-4290-8893-47B67DA737F9}">
+											<Language>SFX</Language>
+											<AudioFile>cupDebris_004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="749328568"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupDebris_004" ID="{7DAA4BBD-9835-4290-8893-47B67DA737F9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="cupDestroy" ID="{12123546-64FB-4223-B47D-57B14FBD301A}" ShortID="660064115">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="cupDestroy_001" ID="{67EDC3AC-F1A4-41CF-BB8B-41409FDF882A}" ShortID="977167884">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupDestroy_001" ID="{FB985B35-DE47-4858-A9D4-786868E4CA9E}">
+											<Language>SFX</Language>
+											<AudioFile>cupDestroy_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="110393124"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupDestroy_001" ID="{FB985B35-DE47-4858-A9D4-786868E4CA9E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cupDestroy_002" ID="{3C0D4CF1-72EF-4024-930B-1C7A735185B0}" ShortID="107485079">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupDestroy_002" ID="{84015ED2-8F2E-4E41-8E6E-00E220C30A2B}">
+											<Language>SFX</Language>
+											<AudioFile>cupDestroy_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="233752013"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupDestroy_002" ID="{84015ED2-8F2E-4E41-8E6E-00E220C30A2B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cupDestroy_003" ID="{5062096A-96A4-4606-9853-F08A6734E866}" ShortID="387207869">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupDestroy_003" ID="{8DEED656-CC40-49C0-9DA1-11B105512157}">
+											<Language>SFX</Language>
+											<AudioFile>cupDestroy_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="274320525"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupDestroy_003" ID="{8DEED656-CC40-49C0-9DA1-11B105512157}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="cupDestroy_004" ID="{28AA25C3-7F54-466B-B97C-D1013B4BED1B}" ShortID="688901665">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cupDestroy_004" ID="{56708813-E7CA-4F7A-A736-4B306C9DD224}">
+											<Language>SFX</Language>
+											<AudioFile>cupDestroy_004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="724779461"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="cupDestroy_004" ID="{56708813-E7CA-4F7A-A736-4B306C9DD224}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
 				</PropertyContainer>
 				<PropertyContainer Name="DoorWindow" ID="{548D75F0-11D1-480B-9D1B-DD31590381B1}" ShortID="448455656">
 					<PropertyList>
@@ -216,6 +1257,232 @@
 							<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="glassDestroy" ID="{474ED2DE-58D4-48C8-9E31-33AD2B3BFE5A}" ShortID="179239047">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1C4E803E-3378-4515-850D-C3CE9D3A80C8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="glassDestroy_001" ID="{459589DC-3FA3-447D-B970-1001433A70CE}" ShortID="98733517">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="glassDestroy_001" ID="{85EC9252-2302-4F11-BEB9-B76953DB8902}">
+											<Language>SFX</Language>
+											<AudioFile>glassDestroy_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="574614355"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="glassDestroy_001" ID="{85EC9252-2302-4F11-BEB9-B76953DB8902}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="glassDestroy_002" ID="{4A17F315-A2C5-4C1F-A884-83497CDFF912}" ShortID="972964850">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="glassDestroy_002" ID="{00951308-870D-4B9B-907C-8ED626DFA763}">
+											<Language>SFX</Language>
+											<AudioFile>glassDestroy_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="576840796"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="glassDestroy_002" ID="{00951308-870D-4B9B-907C-8ED626DFA763}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="glassCollide" ID="{AB5316C7-563A-41F2-B4AE-C4AF77577667}" ShortID="109959863">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{86E63B67-9FEB-4457-A029-5EE7D7A9C08D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="400"/>
+													<Property Name="Min" Type="Real64" Value="-400"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="glassCollide_001" ID="{67A8E7BD-1766-45CB-8627-F8DBC065A81D}" ShortID="569419049">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="glassCollide_001" ID="{8DA0ED81-6A62-4184-A4C1-73134282FE01}">
+											<Language>SFX</Language>
+											<AudioFile>glassCollide_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="998408341"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="glassCollide_001" ID="{8DA0ED81-6A62-4184-A4C1-73134282FE01}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="glassCollide_002" ID="{B3D677A2-C8EA-4F79-BE1F-09E5C461B744}" ShortID="587203923">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="glassCollide_002" ID="{21E31DA3-518D-4B02-A95C-77538CD5D2D5}">
+											<Language>SFX</Language>
+											<AudioFile>glassCollide_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="963959102"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="glassCollide_002" ID="{21E31DA3-518D-4B02-A95C-77538CD5D2D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="glassCollide_003" ID="{4DB5DD6C-8911-4944-A725-6D10D5974718}" ShortID="35833427">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="glassCollide_003" ID="{DAF3E8A8-9154-47A9-A19E-16076C515571}">
+											<Language>SFX</Language>
+											<AudioFile>glassCollide_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="102005506"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="glassCollide_003" ID="{DAF3E8A8-9154-47A9-A19E-16076C515571}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="glassCollide_004" ID="{AF999625-3DB5-4582-8F9A-01768D6ED095}" ShortID="945420871">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="glassCollide_004" ID="{1B045C56-F01E-4A31-A468-DB8C0EFBB929}">
+											<Language>SFX</Language>
+											<AudioFile>glassCollide_004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1056926784"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="glassCollide_004" ID="{1B045C56-F01E-4A31-A468-DB8C0EFBB929}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
 				</PropertyContainer>
 				<PropertyContainer Name="Pipe" ID="{2EBC948F-118F-4A5D-9F0E-F4950A9C952F}" ShortID="127403853">
 					<PropertyList>
@@ -232,8 +1499,293 @@
 							<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="pipePickUp" ID="{30EDA109-C742-43BF-9601-055215A403DC}" ShortID="1035617007">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pipePickUp" ID="{6AB20093-3884-4316-B890-D0C5AE8ECB85}">
+									<Language>SFX</Language>
+									<AudioFile>pipePickUp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="690149826"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pipePickUp" ID="{6AB20093-3884-4316-B890-D0C5AE8ECB85}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pipeSetUp" ID="{A56F4088-17D7-4A68-A577-8C60BD46D760}" ShortID="500890116">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="pipeSetUp" ID="{CC31B0E2-2B90-4B8C-9D80-DA694659055A}">
+									<Language>SFX</Language>
+									<AudioFile>pipeSetUp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="877548063"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="pipeSetUp" ID="{CC31B0E2-2B90-4B8C-9D80-DA694659055A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="pipeCollide" ID="{F34C5E97-7757-4080-A01D-DC74D21D870C}" ShortID="444645052">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="pipeCollide_001" ID="{D2E804F2-0891-4931-A4CC-82AF9E389871}" ShortID="115863389">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pipeCollide_001" ID="{9BDEB2DA-7A6A-4D12-80AB-3E7A700BA456}">
+											<Language>SFX</Language>
+											<AudioFile>pipeCollide_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="923075685"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pipeCollide_001" ID="{9BDEB2DA-7A6A-4D12-80AB-3E7A700BA456}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pipeCollide_002" ID="{53A8696E-64D6-459A-93B3-D5536C86DAAB}" ShortID="88764968">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pipeCollide_002" ID="{7D0AE1E0-8FEA-4142-B43E-BEAE6C3BBB71}">
+											<Language>SFX</Language>
+											<AudioFile>pipeCollide_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="590596376"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pipeCollide_002" ID="{7D0AE1E0-8FEA-4142-B43E-BEAE6C3BBB71}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pipeCollide_003" ID="{029C532C-15BA-48BE-B06F-C67368E8ACAE}" ShortID="57549709">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pipeCollide_003" ID="{AE95BF93-A2B1-4500-BFB6-CC84C0D52D80}">
+											<Language>SFX</Language>
+											<AudioFile>pipeCollide_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="413290436"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pipeCollide_003" ID="{AE95BF93-A2B1-4500-BFB6-CC84C0D52D80}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pipeCollide_004" ID="{0FD1E0D6-4596-48DE-BB73-17A11F32A173}" ShortID="241838930">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pipeCollide_004" ID="{8D231F1D-86DF-426D-BD31-DBABE1303098}">
+											<Language>SFX</Language>
+											<AudioFile>pipeCollide_004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="764870769"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pipeCollide_004" ID="{8D231F1D-86DF-426D-BD31-DBABE1303098}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pipeCollide_005" ID="{B8DA7474-ECB9-422A-A2B7-ECECEE249BE9}" ShortID="116781145">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pipeCollide_005" ID="{610BD958-85F5-4695-B27E-21112FBCFDC3}">
+											<Language>SFX</Language>
+											<AudioFile>pipeCollide_005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="131231608"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pipeCollide_005" ID="{610BD958-85F5-4695-B27E-21112FBCFDC3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pipeCollide_006" ID="{9AAD1953-0463-4FEF-96DE-6C89A4307076}" ShortID="849425623">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pipeCollide_006" ID="{639889A9-658D-4F78-A621-8D84B8B05618}">
+											<Language>SFX</Language>
+											<AudioFile>pipeCollide_006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986843616"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pipeCollide_006" ID="{639889A9-658D-4F78-A621-8D84B8B05618}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pipeCollide_007" ID="{7A044CA4-7FB4-4B1C-ABE7-C0FDBAD9D81F}" ShortID="645192770">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pipeCollide_007" ID="{8D39A8CB-ACE6-43BC-A0DB-0D919DB5786C}">
+											<Language>SFX</Language>
+											<AudioFile>pipeCollide_007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="651901141"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pipeCollide_007" ID="{8D39A8CB-ACE6-43BC-A0DB-0D919DB5786C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pipeCollide_008" ID="{10B6D9B3-F830-4490-B7F3-467679DC6CFA}" ShortID="468917530">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pipeCollide_008" ID="{D8989859-18AF-449E-8B66-CCC770E08ED7}">
+											<Language>SFX</Language>
+											<AudioFile>pipeCollide_008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="521993446"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pipeCollide_008" ID="{D8989859-18AF-449E-8B66-CCC770E08ED7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
 				</PropertyContainer>
-				<PropertyContainer Name="StoneTree" ID="{FC2C7570-189C-48AB-9021-1D900BDC69D6}" ShortID="467790200">
+				<PropertyContainer Name="Stone" ID="{FC2C7570-189C-48AB-9021-1D900BDC69D6}" ShortID="467790200">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 					</PropertyList>
@@ -248,6 +1800,183 @@
 							<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="stoneDestroy" ID="{9789EC72-2108-4A41-B32F-39D00D24C001}" ShortID="213770944">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{69014C7D-9067-4FE7-AD62-950D060231AB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="400"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="stoneDestroy_005" ID="{66C5307E-4A1C-492C-9E83-0D83DF59317F}">
+									<Language>SFX</Language>
+									<AudioFile>stoneDestroy_005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="724085136"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="stoneDestroy_005" ID="{66C5307E-4A1C-492C-9E83-0D83DF59317F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="stoneDerbis" ID="{3E6B8CA8-B62D-4510-8AD8-03D4C50122BA}" ShortID="415387878">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4DCD3A58-07A2-46E1-82FF-02DE43A74072}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="400"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="stoneDerbis_001" ID="{F880FB8A-EA13-46DE-917D-1E5F54C5B650}" ShortID="893070855">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="stoneDerbis_001" ID="{2CA0FC8F-5EE7-4F15-AFFF-5F8293DD2FF6}">
+											<Language>SFX</Language>
+											<AudioFile>stoneDerbis_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1050186597"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="stoneDerbis_001" ID="{2CA0FC8F-5EE7-4F15-AFFF-5F8293DD2FF6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="stoneDerbis_002" ID="{06F30E55-E1F0-4A0A-809D-40C080DC60F5}" ShortID="297357389">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="stoneDerbis_002" ID="{E6B8FB40-09A9-4661-B13F-B9AC190ADC2D}">
+											<Language>SFX</Language>
+											<AudioFile>stoneDerbis_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="117541712"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="stoneDerbis_002" ID="{E6B8FB40-09A9-4661-B13F-B9AC190ADC2D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="stoneDerbis_003" ID="{2BE5B8E9-7F81-4617-8700-FC0AA69EFBFA}" ShortID="1013740605">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="stoneDerbis_003" ID="{20E08095-B58E-4B88-9F64-2E361490CF41}">
+											<Language>SFX</Language>
+											<AudioFile>stoneDerbis_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="229561640"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="stoneDerbis_003" ID="{20E08095-B58E-4B88-9F64-2E361490CF41}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="stoneDerbis_004" ID="{0D006AB1-2934-45E5-B180-4D46F9CE3B33}" ShortID="1062075445">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="stoneDerbis_004" ID="{0D629D2F-E4ED-43E1-8444-7452E4252F01}">
+											<Language>SFX</Language>
+											<AudioFile>stoneDerbis_004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="842096332"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="stoneDerbis_004" ID="{0D629D2F-E4ED-43E1-8444-7452E4252F01}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
 				</PropertyContainer>
 			</ChildrenList>
 		</WorkUnit>

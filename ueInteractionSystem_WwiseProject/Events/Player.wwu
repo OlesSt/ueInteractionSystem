@@ -37,6 +37,13 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_pistolCollide" ID="{FE132A76-DAF5-484E-89BF-15F082D942C3}">
+					<PropertyList>
+						<Property Name="CooldownTime" Type="Real32">
+							<ValueList>
+								<Value>0.2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{052B19E6-0452-49E9-96B5-C67D4E196425}" ShortID="561580199">
 							<ReferenceList>
@@ -81,6 +88,13 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_pickageCollide" ID="{7E82526B-9809-4375-988E-2A17FEB06A08}">
+					<PropertyList>
+						<Property Name="CooldownTime" Type="Real32">
+							<ValueList>
+								<Value>0.2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{74B0F368-2814-4CF3-BD29-AC1DEF56F726}" ShortID="773984215">
 							<ReferenceList>
