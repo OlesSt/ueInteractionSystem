@@ -4,8 +4,8 @@
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Attenuations\Factory Attenuations.wwu" DateLow="1776269888" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Busses\Default Work Unit.wwu" DateLow="1776442468" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Containers\Ambience.wwu" DateLow="1776378205" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Containers\Default Work Unit.wwu" DateLow="1776530853" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Containers\Items.wwu" DateLow="1776689738" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Containers\Default Work Unit.wwu" DateLow="1776715104" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Containers\Items.wwu" DateLow="1776715220" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Containers\Music.wwu" DateLow="1776378205" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Containers\Player.wwu" DateLow="1776375000" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1776356015" DateHigh="0"/>
@@ -15,8 +15,8 @@
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1776356015" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1776356015" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Effects\Factory Effects.wwu" DateLow="1776269888" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Events\Default Work Unit.wwu" DateLow="1776668574" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Events\Items.wwu" DateLow="1776689479" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Events\Default Work Unit.wwu" DateLow="1776715220" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Events\Items.wwu" DateLow="1776761138" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Events\Music.wwu" DateLow="1776374207" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Events\Player.wwu" DateLow="1776709797" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1776356015" DateHigh="0"/>
@@ -28,13 +28,13 @@
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1776356015" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Queries\Factory Queries.wwu" DateLow="1776269888" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Sidechain Mixes\Default Work Unit.wwu" DateLow="1776356015" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1776668574" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1776715260" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1776356015" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\States\Default Work Unit.wwu" DateLow="1776373540" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1776356015" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1776356015" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\ueInteractionSystem_WwiseProject.crossover.wsettings" DateLow="1776709809" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\ueInteractionSystem_WwiseProject.crossover.wsettings" DateLow="1776763465" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\ueInteractionSystem_WwiseProject.wproj" DateLow="1776374774" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\Unreal Projects\ueInteractionSystem\ueInteractionSystem_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1776356015" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Library\Application Support\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1776709809" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Library\Application Support\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1776763465" DateHigh="0"/>
 </ValidationCache>

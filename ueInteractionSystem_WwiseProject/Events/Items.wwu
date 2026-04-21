@@ -6,7 +6,25 @@
 				<Folder Name="DoorWindow" ID="{5BCB5655-77C8-4D62-9C14-DA75A61F68EF}" ShortID="822204732">
 					<ChildrenList>
 						<Event Name="Play_doorSingle_Close" ID="{E896BC91-6CDD-43F0-ABD0-41FEB92F11B1}">
+							<PropertyList>
+								<Property Name="InstanceLimit" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
+								<Action Name="" ID="{EB8B1B17-7424-48B1-B8A3-1AEB649E45E3}" ShortID="299759817">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="doorSingle_Open" ID="{1FDBAD14-39D9-484E-9062-8E13C054197E}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{240BE91E-48EC-4AC2-8CCD-4FBD99357A35}" ShortID="742154219">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -17,7 +35,25 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_doorSingle_Open" ID="{7C682EBF-9059-42F9-9645-3C81B279D529}">
+							<PropertyList>
+								<Property Name="InstanceLimit" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
+								<Action Name="" ID="{84DB1113-A698-46AC-BCA5-46125F570837}" ShortID="748463766">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="doorSingle_Close" ID="{3ECA0F02-6B85-4B2C-8615-A02042F5FF1B}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{82811211-45A3-4B0C-84B1-D8DB9F9F7DA8}" ShortID="746945061">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -28,7 +64,25 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_doorSlide_Close" ID="{FA18B517-BDC0-458D-82E0-239A1FF10603}">
+							<PropertyList>
+								<Property Name="InstanceLimit" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
+								<Action Name="" ID="{2C0DD69D-1FC8-4902-8350-ADFB8FD63085}" ShortID="720461382">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="doorSlide_Open" ID="{A2BE09D2-E5F4-4F9A-BFB2-4C2C2105B6C2}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{C1187409-BF26-45F1-A4B7-F7B40AB7F6C2}" ShortID="554818836">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -39,7 +93,25 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_doorSlide_Open" ID="{2F0A1A58-DE48-44F8-B354-0E489D6D2DCA}">
+							<PropertyList>
+								<Property Name="InstanceLimit" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
+								<Action Name="" ID="{A825E194-9D96-44CC-8581-FF8B8A8F7F73}" ShortID="171370524">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="doorSlide_Close" ID="{EF857A86-EBCA-4A29-A99E-D342229A7B31}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{C048AD8F-CBBA-4495-964F-1A017331346F}" ShortID="4802624">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -50,7 +122,25 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_windowClose" ID="{47EB73D4-8D83-4DB8-965F-FD960D10643A}">
+							<PropertyList>
+								<Property Name="InstanceLimit" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
+								<Action Name="" ID="{35C17603-3194-46C6-9D22-0AD6A9FF88F9}" ShortID="879632784">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="windowOpen" ID="{E8351689-E505-4DDF-A57A-26D10E822F09}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{DCB574F0-7188-43EF-B171-78E47D8D1CD4}" ShortID="948251637">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -61,7 +151,25 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_windowOpen" ID="{7DE2B559-F641-4753-96D2-C08F1AA07404}">
+							<PropertyList>
+								<Property Name="InstanceLimit" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
+								<Action Name="" ID="{C26346DF-B077-4E02-BAE8-002276C12F06}" ShortID="295525445">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="windowClose" ID="{E0C00045-0E1F-4812-86F9-872B295C84C7}" WorkUnitID="{37ABD073-65EB-434B-98CB-AD8B66CC53A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{3587F400-298F-4579-AD46-D592E2F0BD7C}" ShortID="928712251">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -94,6 +202,13 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_cubeDestroy" ID="{DCFFF9D2-9971-43A8-A681-AEBC286B799D}">
+							<PropertyList>
+								<Property Name="InstanceLimit" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{7F2A379C-DAAF-4136-A9D1-5BE9FBD53AE8}" ShortID="251856875">
 									<ReferenceList>
@@ -127,6 +242,18 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_cudeDerbis" ID="{11A88529-FE98-4339-A9FB-0CA45D7B2795}">
+							<PropertyList>
+								<Property Name="CooldownTime" Type="Real32">
+									<ValueList>
+										<Value>0.2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="InstanceLimit" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{C9F7895C-A832-452D-8B44-BD4E665A7E03}" ShortID="341623276">
 									<ReferenceList>
@@ -164,6 +291,11 @@
 								<Property Name="CooldownTime" Type="Real32">
 									<ValueList>
 										<Value>0.2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="InstanceLimit" Type="int16">
+									<ValueList>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -210,6 +342,11 @@
 										<Value>0.2</Value>
 									</ValueList>
 								</Property>
+								<Property Name="InstanceLimit" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{9A4B878E-D6BD-478D-AA39-6775DF268754}" ShortID="123029635">
@@ -222,6 +359,13 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_glassDestroy" ID="{9E8C7975-EEF0-4BC0-8FFF-E9D4DC3B3227}">
+							<PropertyList>
+								<Property Name="InstanceLimit" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{D4C29EBD-B28E-4805-8A64-A03392CC712F}" ShortID="340408983">
 									<ReferenceList>
@@ -287,6 +431,11 @@
 										<Value>0.2</Value>
 									</ValueList>
 								</Property>
+								<Property Name="InstanceLimit" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{A113D067-B6C3-48B7-8A97-4324E4B307AB}" ShortID="869799950">
@@ -299,6 +448,13 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_stoneDestroy" ID="{938F1CBA-E7ED-472C-ACDE-3C8E01DD1B25}">
+							<PropertyList>
+								<Property Name="InstanceLimit" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{526734E5-65AF-49C4-B0D9-F0D9562A20A8}" ShortID="61774437">
 									<ReferenceList>
