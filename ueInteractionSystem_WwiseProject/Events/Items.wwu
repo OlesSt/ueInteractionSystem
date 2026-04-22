@@ -123,6 +123,11 @@
 						</Event>
 						<Event Name="Play_windowClose" ID="{47EB73D4-8D83-4DB8-965F-FD960D10643A}">
 							<PropertyList>
+								<Property Name="CooldownTime" Type="Real32">
+									<ValueList>
+										<Value>0.08</Value>
+									</ValueList>
+								</Property>
 								<Property Name="InstanceLimit" Type="int16">
 									<ValueList>
 										<Value>1</Value>
@@ -190,6 +195,11 @@
 										<Value>0.2</Value>
 									</ValueList>
 								</Property>
+								<Property Name="InstanceLimit" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{7F082424-6317-4886-8030-1E02C419F249}" ShortID="945942940">
@@ -203,6 +213,11 @@
 						</Event>
 						<Event Name="Play_cubeDestroy" ID="{DCFFF9D2-9971-43A8-A681-AEBC286B799D}">
 							<PropertyList>
+								<Property Name="CooldownTime" Type="Real32">
+									<ValueList>
+										<Value>0.08</Value>
+									</ValueList>
+								</Property>
 								<Property Name="InstanceLimit" Type="int16">
 									<ValueList>
 										<Value>2</Value>
@@ -310,6 +325,18 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_cupDestroy" ID="{94E41CBD-C968-4EB0-A7A3-77D97CFBDBE0}">
+							<PropertyList>
+								<Property Name="CooldownTime" Type="Real32">
+									<ValueList>
+										<Value>0.05</Value>
+									</ValueList>
+								</Property>
+								<Property Name="InstanceLimit" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{9A7FF3D8-7F57-4879-8FC5-615B7A6C7D7D}" ShortID="743884091">
 									<ReferenceList>
@@ -449,6 +476,11 @@
 						</Event>
 						<Event Name="Play_stoneDestroy" ID="{938F1CBA-E7ED-472C-ACDE-3C8E01DD1B25}">
 							<PropertyList>
+								<Property Name="CooldownTime" Type="Real32">
+									<ValueList>
+										<Value>0.1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="InstanceLimit" Type="int16">
 									<ValueList>
 										<Value>2</Value>

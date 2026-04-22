@@ -67,6 +67,13 @@
 							</PropertyList>
 						</Bus>
 						<AuxBus Name="auxRverb" ID="{F48B6E8B-EB27-47BD-A025-114AD4BD46A8}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<EffectSlot Name="" ID="{BFAF8550-541E-4E8C-B31F-4AACD3006ECF}" ShortID="179777729">

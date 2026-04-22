@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-12</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -22,7 +22,7 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="foot_Steps" ID="{CA177B92-530A-40BB-9324-2577DD0A05C6}" ShortID="671545056">
 							<PropertyList>
-								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
