@@ -142,12 +142,52 @@
 							</CustomState>
 						</CustomStateList>
 					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{2D3ACC9F-BA4C-48C4-AA07-27286CC8F0EC}" ShortID="307669791">
+								<ReferenceList>
+									<Reference Name="Effect">
+										<Custom>
+											<Effect Name="Parametric EQ (Custom)" ID="{34387362-F56E-4DD8-A6AC-64B8930D2C1C}" ShortID="953720639" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<PropertyList>
+													<Property Name="FilterTypeBand3" Type="int32" Value="5"/>
+													<Property Name="FrequencyBand1" Type="Real32" Value="120"/>
+													<Property Name="FrequencyBand2" Type="Real32" Value="315"/>
+													<Property Name="FrequencyBand3" Type="Real32" Value="1000"/>
+													<Property Name="GainBand1" Type="Real32" Value="3"/>
+													<Property Name="GainBand2" Type="Real32" Value="-6"/>
+													<Property Name="GainBand3" Type="Real32" Value="-3"/>
+													<Property Name="OnOffBand3" Type="bool" Value="True"/>
+													<Property Name="QFactorBand2" Type="Real32" Value="3"/>
+												</PropertyList>
+											</Effect>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+								<StateInfo>
+									<CustomStateList>
+										<CustomState>
+											<StateRef Name="Inside" ID="{F566B41D-6651-499D-A4E6-E0EF927DE348}"/>
+											<CustomState Name="" ID="{A1F93BBE-3FD1-46C4-BB0E-F248AAC13CC3}" ShortID="557230843"/>
+										</CustomState>
+										<CustomState>
+											<StateRef Name="None" ID="{5928F853-083E-4E02-82A3-00AD91778C4B}"/>
+											<CustomState Name="" ID="{1D07292D-6621-4E7F-AB6C-0D8466A022D2}" ShortID="541919000"/>
+										</CustomState>
+									</CustomStateList>
+								</StateInfo>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="Music3d" ID="{48ECCE5C-732C-4222-A41B-5D4D78A24C21}" ShortID="2429641">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Distance" ID="{2B59CCD9-3A59-47A1-9829-E6D140BD3A02}" WorkUnitID="{6638DC6C-2191-4341-8D8D-BCF7E9DCF79D}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
 						</Reference>
@@ -285,7 +325,6 @@
 									<PropertyList>
 										<Property Name="Highpass" Type="int16" Value="20"/>
 										<Property Name="Lowpass" Type="int16" Value="60"/>
-										<Property Name="Volume" Type="Real64" Value="-3"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>

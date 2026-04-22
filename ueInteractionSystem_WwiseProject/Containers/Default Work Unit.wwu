@@ -102,6 +102,25 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{0AFC8E0C-A689-418A-9EF6-1E6961B9FB00}" ShortID="1028588534">
+								<ReferenceList>
+									<Reference Name="Effect">
+										<Custom>
+											<Effect Name="Compressor (Custom)" ID="{8C9A35EB-0A95-43AE-ABBA-D720BE8B2E9E}" ShortID="321497888" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+												<PropertyList>
+													<Property Name="AttackTime" Type="Real32" Value="0.03"/>
+													<Property Name="Ratio" Type="Real32" Value="2"/>
+													<Property Name="Threshold" Type="Real32" Value="-36"/>
+												</PropertyList>
+											</Effect>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
 				</PropertyContainer>
 				<PropertyContainer Name="UI" ID="{BF0583FD-3014-486B-92E6-4B91DCECD127}" ShortID="800060129">
 					<ReferenceList>
@@ -158,6 +177,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="uiLight_Green" ID="{57A2D09F-DD55-41AB-9B6B-5EBEA65785DE}" ShortID="312567676">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
@@ -180,6 +206,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="panelActive_Off" ID="{F62DAE49-6B17-47E7-8EC5-EC6443DD13DD}" ShortID="795056412">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>

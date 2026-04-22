@@ -4,6 +4,13 @@
 		<WorkUnit Name="Music" ID="{781C7EDF-D1AF-48CE-A1C3-4F7BB36BBA4B}" PersistMode="Standalone">
 			<ChildrenList>
 				<Event Name="Play_Music2d" ID="{0EA5CB1E-0007-4CAA-8EF4-6F9A61D8467A}">
+					<PropertyList>
+						<Property Name="InstanceLimit" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{77490EB8-40E0-462E-86F8-D1C192AD5DE7}" ShortID="617608011">
 							<ReferenceList>
@@ -15,6 +22,13 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Music3d" ID="{08A4AFC1-8C20-4CD5-9026-9128A1DB0660}">
+					<PropertyList>
+						<Property Name="InstanceLimit" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{1BE94D9C-15B3-4138-85A3-B64DD17BB075}" ShortID="942904393">
 							<ReferenceList>

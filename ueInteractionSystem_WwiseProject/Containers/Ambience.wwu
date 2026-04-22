@@ -8,7 +8,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="OutputBusVolume" Type="Real64">
 							<ValueList>
-								<Value>-12</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -53,6 +53,43 @@
 							</CustomState>
 						</CustomStateList>
 					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{5E428A57-0810-4EFB-86B5-3FBD094364E8}" ShortID="678322199">
+								<ReferenceList>
+									<Reference Name="Effect">
+										<Custom>
+											<Effect Name="Parametric EQ (Custom)" ID="{429FA348-3635-41A6-ABC2-FBF1D91C71DA}" ShortID="1003916136" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<PropertyList>
+													<Property Name="FilterTypeBand3" Type="int32" Value="5"/>
+													<Property Name="FrequencyBand1" Type="Real32" Value="120"/>
+													<Property Name="FrequencyBand2" Type="Real32" Value="2500"/>
+													<Property Name="FrequencyBand3" Type="Real32" Value="1000"/>
+													<Property Name="GainBand1" Type="Real32" Value="-12"/>
+													<Property Name="GainBand2" Type="Real32" Value="-6"/>
+													<Property Name="GainBand3" Type="Real32" Value="3"/>
+													<Property Name="OnOffBand3" Type="bool" Value="True"/>
+													<Property Name="QFactorBand2" Type="Real32" Value="3"/>
+												</PropertyList>
+											</Effect>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+								<StateInfo>
+									<CustomStateList>
+										<CustomState>
+											<StateRef Name="Inside" ID="{F566B41D-6651-499D-A4E6-E0EF927DE348}"/>
+											<CustomState Name="" ID="{2C7A00FF-97CC-431F-BF96-043BDAFC151C}" ShortID="878782125"/>
+										</CustomState>
+										<CustomState>
+											<StateRef Name="None" ID="{5928F853-083E-4E02-82A3-00AD91778C4B}"/>
+											<CustomState Name="" ID="{D871EBB1-DDDC-4A33-B6F3-D035E927FD38}" ShortID="646516831"/>
+										</CustomState>
+									</CustomStateList>
+								</StateInfo>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="Ambience" ID="{07067356-2EEB-4033-93CD-B7F5206801B9}" Platform="Linked"/>
 					</ActiveSourceList>

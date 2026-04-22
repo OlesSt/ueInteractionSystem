@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6BA9A308-93D4-4066-95F3-5EBEE5B43825}" SchemaVersion="133">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{6BA9A308-93D4-4066-95F3-5EBEE5B43825}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6BA9A308-93D4-4066-95F3-5EBEE5B43825}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="MIXING" ID="{2970C467-C2F8-44FB-82C2-258FD2E21944}">
+					<ObjectList>
+						<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+						<ObjectRef Name="busAmbience" ID="{80E4F2B1-EB24-4588-9725-FE37F2BF0605}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+						<ObjectRef Name="busItems" ID="{8C104495-C5CC-4BE0-B7A6-FECB252F7692}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+						<ObjectRef Name="busMusic" ID="{CEE458FD-AABB-481F-8C58-84F5F3B66267}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+						<ObjectRef Name="busPlayer" ID="{D12207BD-F243-41B9-A9C6-91C804DD7FB5}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+						<ObjectRef Name="auxRverb" ID="{F48B6E8B-EB27-47BD-A025-114AD4BD46A8}" WorkUnitID="{80E6B36C-B61E-466C-AF55-936542B2DEDA}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

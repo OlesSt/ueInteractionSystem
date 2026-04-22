@@ -64,6 +64,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="cubeSetUp" ID="{15AFCC77-A001-470C-8B9F-F14F459D5C82}" ShortID="35654865">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
@@ -86,6 +93,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="cubeCollide" ID="{EEB0CCBA-2F61-431A-9BEB-CDEE18786E6B}" ShortID="135555190">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
@@ -558,6 +572,25 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{C64F118A-BE28-4F43-9665-354CC0DA670E}" ShortID="438726637">
+								<ReferenceList>
+									<Reference Name="Effect">
+										<Custom>
+											<Effect Name="Compressor (Custom)" ID="{932193E0-D4B4-4162-83C7-1E8F0EFA2E86}" ShortID="87278670" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+												<PropertyList>
+													<Property Name="AttackTime" Type="Real32" Value="0.03"/>
+													<Property Name="Ratio" Type="Real32" Value="4"/>
+													<Property Name="Threshold" Type="Real32" Value="-21"/>
+												</PropertyList>
+											</Effect>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
 				</PropertyContainer>
 				<PropertyContainer Name="Cup" ID="{8F4D37EF-CAD4-427F-9521-5EAC7693973D}" ShortID="348761686">
 					<PropertyList>
@@ -966,6 +999,11 @@
 						<RandomSequenceContainer Name="cupDestroy" ID="{12123546-64FB-4223-B47D-57B14FBD301A}" ShortID="660064115">
 							<PropertyList>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1091,6 +1129,43 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{24C79322-69FA-40C6-B812-EC3CC4CBAEDD}" ShortID="637722530">
+								<ReferenceList>
+									<Reference Name="Effect">
+										<Custom>
+											<Effect Name="Parametric EQ (Custom)" ID="{81316B09-30FD-4C50-833B-28EC96CA4DC2}" ShortID="334933490" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<PropertyList>
+													<Property Name="FrequencyBand2" Type="Real32" Value="2324.645"/>
+													<Property Name="FrequencyBand3" Type="Real32" Value="820.5316"/>
+													<Property Name="GainBand2" Type="Real32" Value="-12"/>
+													<Property Name="GainBand3" Type="Real32" Value="3"/>
+													<Property Name="OnOffBand3" Type="bool" Value="True"/>
+													<Property Name="QFactorBand2" Type="Real32" Value="4"/>
+												</PropertyList>
+											</Effect>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+							<EffectSlot Name="" ID="{5CAB1DEB-D086-494E-9198-BD268CE6938A}" ShortID="470577031">
+								<ReferenceList>
+									<Reference Name="Effect">
+										<Custom>
+											<Effect Name="Compressor (Custom)" ID="{E4ABAFB1-81E5-4DC3-AEA2-377257EA4038}" ShortID="518766458" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+												<PropertyList>
+													<Property Name="AttackTime" Type="Real32" Value="0.01"/>
+													<Property Name="Ratio" Type="Real32" Value="4"/>
+													<Property Name="Threshold" Type="Real32" Value="-30"/>
+												</PropertyList>
+											</Effect>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
 				</PropertyContainer>
 				<PropertyContainer Name="DoorWindow" ID="{548D75F0-11D1-480B-9D1B-DD31590381B1}" ShortID="448455656">
 					<PropertyList>
@@ -1109,6 +1184,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="doorSingle_Open" ID="{1FDBAD14-39D9-484E-9062-8E13C054197E}" ShortID="626476336">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
@@ -1131,6 +1213,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="doorSingle_Close" ID="{3ECA0F02-6B85-4B2C-8615-A02042F5FF1B}" ShortID="361428579">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
@@ -1153,6 +1242,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="doorSlide_Close" ID="{EF857A86-EBCA-4A29-A99E-D342229A7B31}" ShortID="962562187">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
@@ -1175,6 +1271,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="windowOpen" ID="{E8351689-E505-4DDF-A57A-26D10E822F09}" ShortID="624400807">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
@@ -1197,6 +1300,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="doorSlide_Open" ID="{A2BE09D2-E5F4-4F9A-BFB2-4C2C2105B6C2}" ShortID="821719004">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
@@ -1219,6 +1329,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="windowClose" ID="{E0C00045-0E1F-4812-86F9-872B295C84C7}" ShortID="278695682">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
@@ -1241,6 +1358,40 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{DD28E784-D8AC-4DAF-9AEC-FF025BDB50F9}" ShortID="110525559">
+								<ReferenceList>
+									<Reference Name="Effect">
+										<Custom>
+											<Effect Name="Compressor (Custom)" ID="{6F2C1837-5200-433B-AAAA-DB0795EA3B90}" ShortID="129626320" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+												<PropertyList>
+													<Property Name="AttackTime" Type="Real32" Value="0.03"/>
+													<Property Name="Ratio" Type="Real32" Value="4"/>
+													<Property Name="ReleaseTime" Type="Real32" Value="0.2"/>
+													<Property Name="Threshold" Type="Real32" Value="-24"/>
+												</PropertyList>
+											</Effect>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+							<EffectSlot Name="" ID="{E6B56F51-8B76-4507-9B81-02C2E312ADF2}" ShortID="328081458">
+								<ReferenceList>
+									<Reference Name="Effect">
+										<Custom>
+											<Effect Name="Parametric EQ (Custom)" ID="{6C143268-A921-4D2C-9D5B-8DC12B00BD2C}" ShortID="447909434" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<PropertyList>
+													<Property Name="FrequencyBand2" Type="Real32" Value="2500"/>
+													<Property Name="GainBand2" Type="Real32" Value="-3"/>
+												</PropertyList>
+											</Effect>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
 				</PropertyContainer>
 				<PropertyContainer Name="Glass" ID="{DF359ED8-04D2-4613-A6D7-93A34FD145D9}" ShortID="263987348">
 					<PropertyList>
@@ -1358,6 +1509,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1483,6 +1639,26 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{6C0A0172-5E97-4B8D-9A23-80D4B8A11FD2}" ShortID="785520167">
+								<ReferenceList>
+									<Reference Name="Effect">
+										<Custom>
+											<Effect Name="Parametric EQ (Custom)" ID="{7F5440D5-72F0-4A22-A7BF-55BBB1A921B0}" ShortID="433452580" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<PropertyList>
+													<Property Name="FilterTypeBand3" Type="int32" Value="5"/>
+													<Property Name="FrequencyBand3" Type="Real32" Value="3000"/>
+													<Property Name="GainBand3" Type="Real32" Value="-3"/>
+													<Property Name="OnOffBand3" Type="bool" Value="True"/>
+												</PropertyList>
+											</Effect>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
 				</PropertyContainer>
 				<PropertyContainer Name="Pipe" ID="{2EBC948F-118F-4A5D-9F0E-F4950A9C952F}" ShortID="127403853">
 					<PropertyList>
@@ -1523,6 +1699,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="pipeSetUp" ID="{A56F4088-17D7-4A68-A577-8C60BD46D760}" ShortID="500890116">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
@@ -1815,6 +1998,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1839,6 +2027,11 @@
 						</Sound>
 						<RandomSequenceContainer Name="stoneDerbis" ID="{3E6B8CA8-B62D-4510-8AD8-03D4C50122BA}" ShortID="415387878">
 							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -1852,6 +2045,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1977,6 +2175,45 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{037D105F-A2FF-44FD-B90F-BCA45C6A1466}" ShortID="857534843">
+								<ReferenceList>
+									<Reference Name="Effect">
+										<Custom>
+											<Effect Name="Parametric EQ (Custom)" ID="{39134885-97B5-48D3-8E21-AA66BC1A96DC}" ShortID="784048172" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<PropertyList>
+													<Property Name="FrequencyBand1" Type="Real32" Value="220"/>
+													<Property Name="FrequencyBand2" Type="Real32" Value="3200"/>
+													<Property Name="FrequencyBand3" Type="Real32" Value="6500"/>
+													<Property Name="GainBand1" Type="Real32" Value="3"/>
+													<Property Name="GainBand2" Type="Real32" Value="-6"/>
+													<Property Name="GainBand3" Type="Real32" Value="-3"/>
+													<Property Name="OnOffBand3" Type="bool" Value="True"/>
+													<Property Name="QFactorBand2" Type="Real32" Value="3"/>
+												</PropertyList>
+											</Effect>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+							<EffectSlot Name="" ID="{628A68E9-EE90-4C80-9815-D4434C09E113}" ShortID="102255387">
+								<ReferenceList>
+									<Reference Name="Effect">
+										<Custom>
+											<Effect Name="Compressor (Custom)" ID="{7EAD19CC-E357-4520-A0AE-3C6899FF88B6}" ShortID="513019138" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+												<PropertyList>
+													<Property Name="AttackTime" Type="Real32" Value="0.03"/>
+													<Property Name="Ratio" Type="Real32" Value="4"/>
+													<Property Name="Threshold" Type="Real32" Value="-24"/>
+												</PropertyList>
+											</Effect>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
 				</PropertyContainer>
 			</ChildrenList>
 		</WorkUnit>
