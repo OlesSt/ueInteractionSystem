@@ -4,6 +4,13 @@
 		<WorkUnit Name="Player" ID="{36F81260-97DC-4E0F-A490-8A160E06FB82}" PersistMode="Standalone">
 			<ChildrenList>
 				<PropertyContainer Name="PlayerFootsteps" ID="{FAE603B5-0BAE-4B32-AB42-437F91807B39}" ShortID="41242327">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BE318941-896C-4063-BC56-B69E86FA9941}"/>
