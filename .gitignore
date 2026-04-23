@@ -34,6 +34,11 @@ Plugins/WwiseSoundEngine/
 Plugins/Wwise/
 Plugins/WwiseNiagara/
 # ========================
+# THIRD-PARTY MARKETPLACE CONTENT
+# ========================
+# Koalafied Dev - Interaction System (Fab Standard License, not for redistribution)
+Content/InteractionSystem/
+# ========================
 # MAC
 # ========================
 .DS_Store
